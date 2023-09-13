@@ -3,7 +3,7 @@
 
 .footer {
   padding: 4rem 0 4rem 0;
-  background-color: #202123;
+  background-color: $color-primary-extra-dark;
   color: $color-white;
   &-main {
     @include gridLayout(auto, repeat(4, 1fr), 2rem, 2rem);
@@ -19,7 +19,7 @@
     }
     & a:hover,
     & a:active {
-      color: $color-primary-dark;
+      color: $color-primary-light;
     }
     &__list {
       padding-top: 2rem;
@@ -116,7 +116,7 @@
 
       &-link:hover,
       &-link:active {
-        color: $color-primary-dark;
+        color: $color-primary-light;
       }
     }
   }
