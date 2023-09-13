@@ -1,0 +1,29 @@
+@import "./../../../Styles/variables";
+@import "./../../../Styles/mixins";
+
+.refund-policy {
+  padding: 2rem 0;
+  &--text {
+    &__content {
+      margin: 1.5rem 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.paragraph-heading {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.paragraph-sub {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,53 @@
+@import "./../../../Styles/variables";
+@import "./../../../Styles/mixins";
+
+.accordion {
+  padding: 1rem 0;
+  &-heading {
+    @include flexLayout(flex-start, center, row, 3rem);
+    padding: 1rem 3rem;
+    background-color: white;
+    border-bottom: 1px solid $color-primary-extra-light;
+    cursor: pointer;
+
+    &__text {
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+
+    &__symbol {
+      display: inline-block;
+      font-size: 2.6rem;
+      border: 1px solid grey;
+      padding: 0 1.5rem;
+      border-radius: 50%;
+    }
+  }
+
+  &-content {
+    max-height: 0;
+    backface-visibility: hidden;
+    background-color: $color-white;
+    overflow: hidden;
+    padding: 0 3rem;
+    transition: all 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-5rem);
+
+    &__text {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      line-height: 2;
+    }
+  }
+
+  &-content.active {
+    max-height: 100%;
+    padding: 2rem 3rem;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}

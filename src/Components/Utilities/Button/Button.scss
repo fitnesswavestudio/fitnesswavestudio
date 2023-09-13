@@ -1,0 +1,45 @@
+@import "./../../../Styles/variables";
+@import "./../../../Styles/mixins";
+
+.btn {
+  @include generalTextFormatting;
+  border: none;
+  letter-spacing: 1px;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &-primary {
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: $box-shadow;
+    &:hover {
+      @include zoomEffectAnimation;
+      background-color: $color-primary-dark;
+    }
+    &:active {
+      transform: translateY(1px) scale(1.015);
+      box-shadow: $box-shadow;
+    }
+  }
+
+  &-secondary {
+    background-color: $color-primary-extra-light-2;
+    &:hover {
+      @include zoomEffectAnimation;
+      box-shadow: none;
+      background-color: $color-primary-extra-light;
+    }
+    &:active {
+      transform: translateY(1px) scale(1.015);
+    }
+  }
+
+  @media only screen and(max-width: 26em) {
+    padding: 1.5rem 2rem;
+  }
+}
+
+.flex-start {
+  margin: 0 auto 0 0;
+}

@@ -1,0 +1,5 @@
+@import "./../../../Styles/mixins";
+.faq {
+  padding: 2rem 0;
+  @include flexLayout(center, flex-start, column, 3rem);
+}

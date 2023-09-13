@@ -1,0 +1,33 @@
+@import "./../../../Styles/variables";
+@import "./../../../Styles/mixins";
+
+.pricing {
+  padding: 2rem 0;
+
+  &-plans {
+    @include gridLayout(auto, repeat(3, 1fr), 4rem, 4rem);
+    padding: 4rem 0 2rem 0;
+    &__text-benefits {
+      @include flexLayout(flex-start, flex-start, column, 0.5rem);
+      color: $color-grey;
+      list-style: none;
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+    }
+
+    &__btn {
+      padding-top: 2rem;
+    }
+
+    &__amount {
+      font-size: 1.4rem;
+      & span {
+        font-size: 3.2rem;
+      }
+    }
+
+    @media only screen and(max-width: 43em ) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

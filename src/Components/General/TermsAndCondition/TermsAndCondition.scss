@@ -1,0 +1,29 @@
+@import "./../../../Styles/variables";
+@import "./../../../Styles/mixins";
+
+.termsandcontitions {
+  padding: 2rem 0;
+}
+.terms {
+  margin-top: 2rem;
+  padding: 4rem;
+  box-shadow: $box-shadow;
+  &__text {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: $color-grey;
+    border-bottom: 1px solid $color-grey;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $color-primary;
+  }
+}
