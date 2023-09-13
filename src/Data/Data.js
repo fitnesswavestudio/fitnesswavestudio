@@ -5,12 +5,12 @@
 
 export const aboutData = {
   headingText: {
-    primary: "Happiness is a decision, not a destination. Realize it with us!",
+    primary: "Unleash Your Best Self with Us!!",
     secondary: "About Fitness Wave Studio",
     paragraphText:
-      "At Fitness Wave Studio, our vision is to redefine how individuals engage with fitness, regardless of their geographical location. We've developed an online fitness platform that caters to the modern lifestyle, delivering a diverse range of virtual classes including yoga, calisthenics, zumba, and more",
+      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and meditation, ensures that there's something for everyone on their journey to improved health and wellness."
   },
-  videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+  videoUrl: "https://www.youtube.com/shorts/rZFBv4GThLw",
 };
 
 //Footer Data
@@ -18,38 +18,36 @@ export const aboutData = {
 export const footerData = {
   logo: {
     text: "Fitness Wave Studio",
-    tagline: "Lorem ipsum dolor, sit amet consectetur.",
+    tagline: "Sweat, Smile, Repeat: Your Fitness Journey Starts Here!",
   },
   getintouch: {
     text: "Get In Touch",
     address: [
       //Dont Change icon
-      { icon: "home-outline", text: "123, Beker Street" },
-      { icon: "mail-outline", text: "abc@example.com" },
-      { icon: "call-outline", text: "+91 9999998877" },
-      { icon: "time-outline", text: "9:00 - 9:00" },
+      { icon: "home-outline", text: "Connaught Place, New Delhi" },
+      { icon: "mail-outline", text: "contact@fitnesswavestudio.com" },
+      { icon: "call-outline", text: "+91 78937-51525" }
     ],
   },
   quicklinks: {
     text: "Quick Links",
     links: [
-      { text: "About Company", src: "#" },
-      { text: "Blogs", src: "#" },
-      { text: "Refund Policy", src: "#" },
-      { text: "Contact Us", src: "#" },
+      { text: "About Company", src: "https://www.fitnesswavestudio.com/about" },
+      { text: "Blogs", src: "https://www.fitnesswavestudio.com/about" },
+      { text: "Refund Policy", src: "https://www.fitnesswavestudio.com/about" },
+      { text: "Contact Us", src: "https://www.fitnesswavestudio.com/about" },
     ],
   },
   location: {
     text: "Location",
-    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.464946629981!2d77.36091877386757!3d28.40522429436961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdcd791431a7f%3A0xe5d6020d9cf2e006!2sPuri%20Pratham%20Society!5e0!3m2!1sen!2sin!4v1692696785387!5m2!1sen!2sin",
+    src: "https://www.google.com/maps/place/Connaught+Place,+New+Delhi,+Delhi+110001/@28.6289016,77.2049872,15z/data=!3m1!4b1!4m6!3m5!1s0x390cfd37b741d057:0xcdee88e47393c3f1!8m2!3d28.6304203!4d77.2177216!16zL20vMDR4eDB4?entry=ttu",
   },
 
   socialLinks: [
     //Dont Change icon
-    { icon: "logo-instagram", src: "#" },
-    { icon: "logo-facebook", src: "#" },
-    { icon: "logo-twitter", src: "#" },
-    { icon: "logo-youtube", src: "#" },
+    { icon: "logo-instagram", src: "https://www.instagram.com/fitnesswavestudio" },
+    { icon: "logo-facebook", src: "https://www.facebook.com/FitnessWaveStudio" },
+    { icon: "logo-youtube", src: "https://www.youtube.com/@fitnesswavestudio" },
   ],
 };
 
@@ -79,10 +77,10 @@ export const contactData = {
 
 export const heroData = {
   heroText: {
-    primary: "Sweat, Smile, Repeat: Your Fitness Journey Starts Here!",
-    secondary: "fitness wave studio",
+    primary: "Your Path to Wellness",
+    secondary: "Unleash Your Best Self with Us!!",
     paragraphText:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quidem repellat cumque perferendis et vitae non, repellendus necessitatibus dolores.",
+      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and Meditation, ensures that there's something for everyone on their journey to improved health and wellness.",
   },
 
   heroBtn: {
@@ -90,8 +88,8 @@ export const heroData = {
     styleName: "btn-primary",
   },
   heroImg: {
-    src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/tabitha-turner-vuQP4z9B9Ac-unsplash.jpg",
-    alt: "Fitnerss Stusio Wave hero image",
+    src: "/assets/sakshi_hero.jpeg",
+    alt: "Fitnerss Wave Studio hero image",
     className: "hero-img",
   },
 };
@@ -102,27 +100,27 @@ export const faqData = {
   questionAnswer: [
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "How do I join fitness wave studio?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "To join our online fitness studio, simply fill enrollment form on our website or reachout to us on instagram and sign up for a membership. Once registered, you'll gain access to our classes and resources.",
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "What types of workouts do you offer?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "We offer a wide range of workouts, including Yoga, HIIT, strength training, dance, Pilates, and more. You can choose from a variety of classes that suit your fitness goals and preferences.",
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "Can beginners join your classes?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "Absolutely! Our classes are designed to accommodate all fitness levels, from beginners to advanced. Our instructors provide options for different skill levels within each class.",
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "Do you offer a trial class?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "Yes, we have option for trial class for new members. You need to pay a small amount for a single day trial class which will be reimbursable on buying class subscription",
     },
   ],
 };
@@ -132,23 +130,23 @@ export const faqData = {
 export const meetCoachData = {
   trainerInfo: [
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-2S2SDH3-1536x1536.jpg",
+      src: "/assets/poorva_cropped.jpeg",
       alt: "Trainer Image",
-      trainerType: "Yoga Trainer",
-      trainerName: "Annabelle",
+      trainerType: "Certified Yoga Trainer",
+      trainerName: "Poorva",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-2S2SDH3-1536x1536.jpg",
+      src: "/assets/sofie.jpeg",
       alt: "Trainer Image",
-      trainerType: "Yoga Trainer",
-      trainerName: "Annabelle",
-    },
+      trainerType: "Certified Yoga Trainer",
+      trainerName: "Sofia",
+    }
   ],
   headingTexts: {
-    primary: "Your guide for Fitness Success",
-    secondary: "meet your coach",
+    primary: "Talented Trainers From All Over The World",
+    secondary: "OUR TRAINERS",
     paragraphText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad nisi optio sint provident consequatur aut aliquid ratione expedita cumque eos iure.",
+      "Our handpicked trainers hail from around the globe, bringing diverse expertise and a passion for excellence. With a proven track record, they inspire learning, ensuring a dynamic and insightful experience for all participants.",
   },
   buttonText: {
     contextName: "See More →",
@@ -162,34 +160,34 @@ export const refundPolicyData = {
   qna: [
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Can I request a refund for my purchase?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "No, we do not offer refunds for any of our products or services. This includes memberships, classes or digital content.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "What if I'm not satisfied with a product or service I purchased?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "We strive to provide the best possible experience. If you have concerns or are unsatisfied with your purchase, please contact our customer support team, and we will do our best to assist you.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Can I get a refund if I accidentally made a duplicate purchase?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "Unfortunately, we are unable to process refunds for accidental duplicate purchases.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Do you offer refunds for canceled memberships or unused classes?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "No, we do not offer refunds for canceled memberships or unused classes. We recommend reviewing our cancellation and membership policies before making a commitment.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Do you offer refunds for trial classes?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
-    },
+        "Trial classes are non refundable. However we reimburse the amount on purchase of monthly subscription",
+    }
   ],
 };
 
@@ -201,7 +199,7 @@ export const termsAndConditionData = {
     tertiary: "Privacy and Policy",
   },
   terms: {
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quas optio repellat molestiae et numquam, dicta fugit beatae non omnis magni architecto rem a, iusto ipsam distinctio alias praesentium laudantium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non neque consequuntur itaque, cupiditate dolorum aliquam harum maiores qui quo et ducimus odio. Perferendis possimus amet, tempora rem provident eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum accusantium porro, facilis autem assumenda distinctio aut ut nemo ex voluptates beatae id doloremque explicabo sint adipisci. Eius a sapiente molestiae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt maxime nesciunt voluptatum suscipit accusamus, cum officiis enim esse neque vitae quod inventore repudiandae, minima eum accusantium nobis provident ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut modi repudiandae corrupti unde impedit eveniet veniam exercitationem cum tenetur quia. Quaerat molestias culpa architecto, atque rerum qui rem ad error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium aliquam soluta autem in id unde deserunt, quam, laudantium optio quisquam repellendus fuga similique placeat quae, architecto ducimus quas non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi voluptates quasi voluptatum, impedit consectetur nihil dolorem, ut magni architecto maiores rerum reprehenderit non quas reiciendis sapiente exercitationem minus? Voluptatem, animi?",
+    text: "By accessing or using Fitness Wave Studio (the \"Website\" or \"Service\"), you agree to comply with and be bound by these Terms and Conditions. You must be at least 18 years old to use our Service and are responsible for maintaining the confidentiality of your account credentials. You agree to use the Service for lawful purposes only, and details about payment methods, fees, and our refund policy are outlined. All content on the Website is owned by or licensed to us and is protected by copyright and other intellectual property laws. You are solely responsible for any content you post on the Website, and we reserve the right to remove or modify user-generated content that violates our policies. Reference to your Privacy Policy (include a link). We are not responsible for any damages or losses resulting from your use of the Service, and we reserve the right to terminate or suspend your account and access to the Service at our discretion. These Terms and Conditions are governed by the laws of [Your Jurisdiction], and we may update them at any time. Regarding your Privacy Policy, explain the types of personal and non-personal information you collect, how you use it, data sharing, cookies, data security, user choices, third-party links, children's privacy, changes to the policy, and provide contact information for privacy-related concerns. By using our Service, you acknowledge and agree that Fintess Wave Studio and its affiliates, employees, and partners shall not be held liable for any direct, indirect, incidental, consequential, or special damages, including but not limited to damages for loss of profits, goodwill, data, or other intangible losses, even if we have been advised of the possibility of such damages. You use our Service at your own risk, and we make no warranties or representations regarding its accuracy, reliability, or fitness for a particular purpose.",
   },
 };
 
@@ -210,28 +208,34 @@ export const termsAndConditionData = {
 export const testimonialsData = {
   reviews: [
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
+      src: "/assets/fws_logo.jpeg",
       alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
+      text: "I have come out of my chronic illness. U have shown me a way to come out of my chronic illness the moment I get back to my full health or at least half of my chronic illness gets cured and I am able to live my life normally",
+      author: "- Sailaja Sreedhar",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
+      src: "/assets/fws_logo.jpeg",
       alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
+      text: "Really thankful to you for encouraging me and making me do yoga when I lost all hopes on my health. With your classes I now am sure I will recover from my ailments of celiac disease and will again get back to my normal life .best yoga trainer I have met ",
+      author: "- Shruti Shukla",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
+      src: "/assets/fws_logo.jpeg",
       alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
+      text: "Fitness classes at Fitness Wave Studio have improved my flexibility and brought inner peace. I'm grateful for this transformative experience",
+      author: "- Shivani Agrawal",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
+      src: "/assets/fws_logo.jpeg",
       alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
+      text: "I really enjoy the sessions. I feel more relaxed and have started feeling more energetic and gained confidence back after loosing 7 KGs of excess weignt. Thanks Sakshi for helping me gain my cofidence back.",
+      author: "- Suzana",
+    },
+    {
+      src: "/assets/fws_logo.jpeg",
+      alt: "Testimonial User Image",
+      text: "Amazing classes. I'm grateful to Poorva for paying good attention to each and every details and guides us better. Thanks for improving my lifestyle",
+      author: "- Dhriti Singh",
     },
   ],
   gallery: [
@@ -286,21 +290,21 @@ export const whyChooseData = {
   },
 
   primaryCard: {
-    headingText: "Comfortable Place",
+    headingText: "Versatility in Fitness Programs",
     paragraphText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate ex impedit unde eius a. Quos nam obcaecati.",
+      "Our online studio covers a comprehensive range of fitness disciplines, allowing our clients to explore various options and find what resonates best with their preferences and goals.",
   },
 
   secondaryCard: [
     {
-      headingText: "Comfortable Place",
+      headingText: "Interactive Sessions",
       paragraphText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate ex impedit unde eius a. Quos nam obcaecati.",
+        "Our online classes are designed to be interactive, fostering a sense of community and camaraderie among participants.",
     },
     {
-      headingText: "Comfortable Place",
+      headingText: "Convenience of Online Classes",
       paragraphText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate ex impedit unde eius a. Quos nam obcaecati.",
+        "Embracing the digital age, we offer online classes that can be accessed from the comfort of your own home or anywhere with an internet connection.",
     },
   ],
 };
@@ -309,16 +313,16 @@ export const whyChooseData = {
 
 export const workshopData = {
   headingText: {
-    primary: "Discover What's Next: Our Upcoming Fitness Workshops",
-    secondary: "Upcoming workshop",
+    primary: "Watch Free Tutorials",
+    secondary: "Free Tutorials",
     paragraphText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Stay tuned to our youtube channel for free tutorials and tips for a healthy life.",
   },
   buttonText: {
     contextName: "Join Now",
     styleName: "btn-primary",
   },
-  videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+  videoUrl: "https://www.youtube.com/shorts/rZFBv4GThLw",
 };
 
 //Meditation Data
