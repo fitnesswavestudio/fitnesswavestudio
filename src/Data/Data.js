@@ -8,7 +8,7 @@ export const aboutData = {
     primary: "Happiness is a decision, not a destination. Realize it with us!",
     secondary: "About Fitness Wave Studio",
     paragraphText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "At Fitness Wave Studio, our vision is to redefine how individuals engage with fitness, regardless of their geographical location. We've developed an online fitness platform that caters to the modern lifestyle, delivering a diverse range of virtual classes including yoga, calisthenics, zumba, and more",
   },
   videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
 };
