@@ -148,7 +148,7 @@ export const meetCoachData = {
     primary: "Your guide for Fitness Success",
     secondary: "meet your coach",
     paragraphText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad nisi optio sint provident consequatur aut aliquid ratione expedita cumque eos iure.",
+      "Seasoned trainers bring over 10,000 hours of training experience, with a minimum of 3+ years in their respective fields",
   },
   buttonText: {
     contextName: "Enroll Now →",
@@ -212,26 +212,14 @@ export const testimonialsData = {
     {
       src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
       alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
+      text: "I have come out of my chronic illness. U have shown me a way to come out of my chronic illness the moment I get back to my full health or at least half of my chronic illness gets cured and I am able to live my life normally",
+      author: "- Shalini",
     },
     {
       src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
       alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
-    },
-    {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
-      alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
-    },
-    {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
-      alt: "Testimonial User Image",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum totam labore isFinite.",
-      author: "- Annabelle",
+      text: "Now I’m sure I will recover from my ailments of celiac disease. Really thankful to you for encouraging me and making me do yoga when I lost all hopes on my health. With your classes I now am sure I will recover from my ailments of celiac disease and will again get back to my normal life .best yoga trainer I have met 🙏🙏🙏",
+      author: "- Avni",
     },
   ],
   gallery: [
@@ -315,13 +303,13 @@ export const workshopData = {
     primary: "Discover What's Next: Our Upcoming Fitness Workshops",
     secondary: "Upcoming workshop",
     paragraphText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Face Yoga Workshop on 17th September 2023, 9 AM",
   },
   buttonText: {
     contextName: "Join Now",
     styleName: "btn-primary",
   },
-  videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+  videoUrl: "https://www.youtube.com/shorts/rZFBv4GThLw",
 };
 
 //Meditation Data
@@ -354,7 +342,7 @@ export const meditationData = {
     headingData: [
       "Talented Trainers From All Over The World",
       "Our Trainer",
-      " → Annabelle",
+      " → Poorva",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ea odio nostrum officiis tenetur.",
     ],
     socialLinks: { facebook: "#", instagram: "#", twitter: "#" },
@@ -420,7 +408,7 @@ export const nutritionData = {
     headingData: [
       "Get familier with your trainer in your jorney",
       "Know your Trainer",
-      " → Annabelle",
+      " → Sofi",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ea odio nostrum officiis tenetur.",
     ],
     socialLinks: { facebook: "#", instagram: "#", twitter: "#" },
@@ -729,7 +717,7 @@ export const featuredPortfolioData = [
   {
     svg: `<svg width="64px" height="64px" viewBox="-102.4 -102.4 1228.80 1228.80" fill="#000000" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M324.8 440c34.4 0 62.4-28 62.4-62.4s-28-62.4-62.4-62.4-62.4 28-62.4 62.4 28 62.4 62.4 62.4z m374.4 0c34.4 0 62.4-28 62.4-62.4s-28-62.4-62.4-62.4-62.4 28-62.4 62.4 28 62.4 62.4 62.4zM340 709.6C384 744 440.8 764.8 512 764.8s128-20.8 172-55.2c26.4-21.6 42.4-42.4 50.4-58.4 6.4-12 0.8-27.2-11.2-33.6s-27.2-0.8-33.6 11.2c-0.8 1.6-3.2 6.4-8 12-7.2 10.4-17.6 20-28.8 29.6-34.4 28-80.8 44.8-140.8 44.8s-105.6-16.8-140.8-44.8c-12-9.6-21.6-20-28.8-29.6-4-5.6-7.2-9.6-8-12-6.4-12-20.8-17.6-33.6-11.2s-17.6 20.8-11.2 33.6c8 16 24 36.8 50.4 58.4z" fill=""></path><path d="M512 1010.4c-276.8 0-502.4-225.6-502.4-502.4S235.2 5.6 512 5.6s502.4 225.6 502.4 502.4-225.6 502.4-502.4 502.4zM512 53.6C261.6 53.6 57.6 257.6 57.6 508s204 454.4 454.4 454.4 454.4-204 454.4-454.4S762.4 53.6 512 53.6z" fill=""></path></g></svg>
           `,
-    headingText: "100+",
+    headingText: "1000+",
     text: "Happy Clients",
   },
   {
@@ -745,8 +733,8 @@ export const featuredPortfolioData = [
   {
     svg: `<svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5C3 6.30622 3.83481 7.41746 5 7.82929V16.1707C3.83481 16.5825 3 17.6938 3 19C3 20.6569 4.34315 22 6 22C7.65685 22 9 20.6569 9 19C9 17.6938 8.16519 16.5825 7 16.1707V11.3987C8.89299 14.0198 11.8676 15.7195 15.1597 15.9683C15.5625 17.15 16.682 18 18 18C19.6569 18 21 16.6569 21 15C21 13.3431 19.6569 12 18 12C16.7075 12 15.6058 12.8174 15.1839 13.9635C11.726 13.6534 8.7142 11.3899 7.47847 8.09457L7.3272 7.6912C8.31833 7.20148 9 6.18034 9 5C9 3.34315 7.65685 2 6 2C4.34315 2 3 3.34315 3 5ZM6 18C5.44772 18 5 18.4477 5 19C5 19.5523 5.44772 20 6 20C6.55228 20 7 19.5523 7 19C7 18.4477 6.55228 18 6 18ZM17 15C17 14.4477 17.4477 14 18 14C18.5523 14 19 14.4477 19 15C19 15.5523 18.5523 16 18 16C17.4477 16 17 15.5523 17 15ZM5 5C5 4.44772 5.44772 4 6 4C6.55228 4 7 4.44772 7 5C7 5.55228 6.55228 6 6 6C5.44772 6 5 5.55228 5 5Z" fill="#000000"></path> </g></svg>
           `,
-    headingText: "20+",
-    text: "Branches",
+    headingText: "5+",
+    text: "Daily Batches",
   },
 ];
 
@@ -780,7 +768,7 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima sapiente incidunt ab quia",
+      "Fitness Wave Studio offers support and motivation through personalized guidance, live instructor interaction, and a vibrant online community to keep you motivated in your fitness journey",
     headingText: "Support and Motivation",
   },
 
@@ -824,7 +812,7 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima sapiente incidunt ab quia",
+      "Fitness Wave Studio's seasoned trainers bring over 10,000 hours of training experience, with a minimum of 3+ years in their respective fields, backed by certifications to provide expert guidance",
     headingText: "Experience Trainer",
   },
 
@@ -870,7 +858,7 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima sapiente incidunt ab quia",
+      "Fitness Wave Studio offers the ideal nutrition support with personalized Ayurvedic diet plans",
     headingText: "Right Nutrition",
   },
 
@@ -904,7 +892,7 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima sapiente incidunt ab quia",
+      "Fitness Wave Studio delivers online courses for yoga, Zumba, and Pilates via Zoom for interactive and convenient learning",
     headingText: "Online Course",
   },
 ];
