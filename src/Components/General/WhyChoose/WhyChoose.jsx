@@ -17,7 +17,7 @@ export const WhyChoose = () => {
             <img {...whyChooseData.whyImage} />
             <div className="section-why--row1__heading">
               <Heading {...whyChooseData.headingText} />
-              <Card bgColor="card-white">
+              <Card bgColor="card-light-dark">
                 <Normal
                   headingText={whyChooseData.primaryCard.headingText}
                   paragraphText={whyChooseData.primaryCard.paragraphText}
@@ -28,7 +28,7 @@ export const WhyChoose = () => {
           <div className="section-why--row2">
             {whyChooseData.secondaryCard.map((val, idx) => {
               return (
-                <Card key={idx} bgColor="card-light-dark">
+                <Card key={idx} bgColor={val.bgColor}>
                   <Normal {...val} />
                 </Card>
               );

@@ -77,10 +77,10 @@ export const contactData = {
 
 export const heroData = {
   heroText: {
-    primary: "Your Path to Wellness",
-    secondary: "Unleash Your Best Self with Us!!",
+    primary: "Unleash Your Best Self with Us!",
+    secondary: "Your Path to Wellness",
     paragraphText:
-      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and Meditation, ensures that there's something for everyone on their journey to improved health and wellness.",
+      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and meditation",
   },
 
   heroBtn: {
@@ -281,7 +281,7 @@ export const testimonialsData = {
 //Why Choose Us
 export const whyChooseData = {
   headingText: {
-    primary: "Your Partner in Achieving Fitness Excellence!",
+    primary: "Versatility in Fitness Programs",
     secondary: "why choose us?",
   },
   whyImage: {
@@ -290,6 +290,7 @@ export const whyChooseData = {
   },
 
   primaryCard: {
+    bgColor: "card-light-dark",
     headingText: "Versatility in Fitness Programs",
     paragraphText:
       "Our online studio covers a comprehensive range of fitness disciplines, allowing our clients to explore various options and find what resonates best with their preferences and goals.",
@@ -297,11 +298,14 @@ export const whyChooseData = {
 
   secondaryCard: [
     {
+      bgColor: "card-dark",
       headingText: "Interactive Sessions",
       paragraphText:
         "Our online classes are designed to be interactive, fostering a sense of community and camaraderie among participants.",
     },
     {
+
+      bgColor: "card-light",
       headingText: "Convenience of Online Classes",
       paragraphText:
         "Embracing the digital age, we offer online classes that can be accessed from the comfort of your own home or anywhere with an internet connection.",
