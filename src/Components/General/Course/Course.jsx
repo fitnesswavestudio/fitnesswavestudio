@@ -35,7 +35,7 @@ export const Course = ({ headingData, videoUrl, benefitsData }) => {
   const classNameCategories = initialClassName + "-categories";
 
   return (
-    <Section styleColor="">
+    <Section styleColor="secondary">
       <Container>
         <div className={initialClassName}>
           <div className={classNameMain}>

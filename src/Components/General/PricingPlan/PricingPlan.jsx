@@ -58,10 +58,10 @@ const PricingDetails = ({
 export const PricingPlan = ({ pricingCardData, headingData }) => {
   const initialClassName = "pricing";
   const classNamePlans = initialClassName + "-plans";
-  const cardBgColor = "card-white padding-tb-lg hover-effect";
+  const cardBgColor = "card-light padding-tb-lg hover-effect";
   const [primaryHeadingText, secondaryHeadingText] = headingData;
   return (
-    <Section styleColor="">
+    <Section styleColor="secondary">
       <Container>
         <div className={initialClassName}>
           <HeadingSecondary headingText={secondaryHeadingText} />

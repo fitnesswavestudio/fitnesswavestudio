@@ -13,15 +13,6 @@ const CardContent = ({ src, alt, trainerType, trainerName }) => {
       <img src={src} alt={alt} className="main-items__img" />
       <HeadingTertiary text={trainerName} />
       <p className="main-items__trainer-type">{trainerType}</p>
-      <ul className="main-items__social-links">
-        {["facebook", "instagram", "twitter"].map((val, key) => {
-          return (
-            <li key={key} className="main-items__social-links__icon">
-              <ion-icon name={"logo-" + val}></ion-icon>
-            </li>
-          );
-        })}
-      </ul>
     </>
   );
 };
@@ -33,7 +24,7 @@ export const MeetCoach = () => {
         <div className="main-items">
           {meetCoachData.trainerInfo.map((val, idx) => {
             return (
-              <Card key={idx} bgColor="card-white">
+              <Card key={idx} bgColor="card-white padding-top-lg">
                 <CardContent {...val} />
               </Card>
             );

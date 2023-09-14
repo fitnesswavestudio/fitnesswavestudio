@@ -27,7 +27,6 @@
       @include absolutePositioningCenter;
       @include widthHeight(95%, 95%);
       border-radius: 50%;
-      z-index: -1;
     }
     &::before {
       content: "";
@@ -36,7 +35,6 @@
       @include absolutePositioningCenter;
       @include widthHeight();
       border-radius: 50%;
-      z-index: -2;
     }
   }
 
@@ -44,6 +42,8 @@
     @include widthHeight();
     border-radius: 50%;
     margin-bottom: -0.5rem;
+    position: relative;
+    z-index: 2;
   }
 
   @media only screen and (max-width: 50em) {

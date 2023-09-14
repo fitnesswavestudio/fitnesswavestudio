@@ -7,7 +7,7 @@ import { termsAndConditionData } from "../../../Data/Data";
 
 export const TermsAndCondition = () => {
   return (
-    <Section styleColor="">
+    <Section styleColor="secondary">
       <Container>
         <div className="termsandcontitions">
           <HeadingSecondary

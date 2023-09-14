@@ -23,18 +23,6 @@
     }
   }
 
-  &-secondary {
-    background-color: $color-primary-extra-light-2;
-    &:hover {
-      @include zoomEffectAnimation;
-      box-shadow: none;
-      background-color: $color-primary-extra-light;
-    }
-    &:active {
-      transform: translateY(1px) scale(1.015);
-    }
-  }
-
   @media only screen and(max-width: 26em) {
     padding: 1.5rem 2rem;
   }

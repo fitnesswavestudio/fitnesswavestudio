@@ -1,0 +1,21 @@
+@import "./../../../Styles/variables";
+
+.btn-secondary:link,
+.btn-secondary:visited {
+  margin: 1rem 0;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  border-bottom: 1px solid transparent;
+}

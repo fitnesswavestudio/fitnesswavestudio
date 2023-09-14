@@ -1,0 +1,35 @@
+@import "./../../../Styles/variables";
+.featured {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  &-data {
+    background-color: $color-secondary;
+    border: 1px solid $color-primary-extra-light-2;
+    padding: 2rem 0;
+  }
+  &-head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+  }
+  &-content {
+    text-align: center;
+  }
+
+  &-svg svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and(max-width: 43em) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media only screen and(max-width: 26em) {
+    grid-template-columns: 1fr;
+  }
+}
