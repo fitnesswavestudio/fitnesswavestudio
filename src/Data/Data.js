@@ -79,10 +79,10 @@ export const contactData = {
 
 export const heroData = {
   heroText: {
-    primary: "Sweat, Smile, Repeat: Your Fitness Journey Starts Here!",
-    secondary: "fitness wave studio",
+    primary: "Unleash Your Best Self with Us!",
+    secondary: "Your Path to Wellness",
     paragraphText:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quidem repellat cumque perferendis et vitae non, repellendus necessitatibus dolores.",
+      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and meditation",
   },
 
   heroBtn: {
@@ -277,7 +277,7 @@ export const testimonialsData = {
 //Why Choose Us
 export const whyChooseData = {
   headingText: {
-    primary: "Your Partner in Achieving Fitness Excellence!",
+    primary: "Versatility in Fitness Programs",
     secondary: "why choose us?",
   },
   whyImage: {
@@ -286,21 +286,24 @@ export const whyChooseData = {
   },
 
   primaryCard: {
-    headingText: "Comfortable Place",
+    bgColor: "card-light-dark",
+    headingText: "Versatility in Fitness Programs",
     paragraphText:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate ex impedit unde eius a. Quos nam obcaecati.",
+      "Our online studio covers a comprehensive range of fitness disciplines, allowing our clients to explore various options and find what resonates best with their preferences and goals.",
   },
 
   secondaryCard: [
     {
-      headingText: "Comfortable Place",
+      bgColor: "card-dark",
+      headingText: "Interactive Sessions",
       paragraphText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate ex impedit unde eius a. Quos nam obcaecati.",
+        "Our online classes are designed to be interactive, fostering a sense of community and camaraderie among participants.",
     },
     {
-      headingText: "Comfortable Place",
+      bgColor: "card-light",
+      headingText: "Convenience of Online Classes",
       paragraphText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cupiditate ex impedit unde eius a. Quos nam obcaecati.",
+        "Embracing the digital age, we offer online classes that can be accessed from the comfort of your own home or anywhere with an internet connection.",
     },
   ],
 };

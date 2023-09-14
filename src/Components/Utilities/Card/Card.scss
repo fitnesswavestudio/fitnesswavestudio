@@ -23,15 +23,18 @@
 }
 
 .card-dark {
-  background-color: $color-primary-dark-1;
+  background-color: $color-primary-dark;
+  color: $color-white;
 }
 
 .card-light-dark {
   background-color: $color-primary-light;
+  color: $color-white;
 }
 
 .card-light {
-  background-color: $color-primary-extra-light-2;
+  background-color: $color-cream;
+  color: $color-primary-dark;
 }
 
 .card-white {
