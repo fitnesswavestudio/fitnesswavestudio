@@ -3,10 +3,24 @@
 
 .card {
   padding: 2.5rem 5rem;
+  position: relative;
   box-shadow: $box-shadow;
   z-index: 2;
   transition: all 0.2s;
   border: 1px solid transparent;
+
+  &-effect {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/overlay_Artboard-4_6.png);
+    background-position: bottom right;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -4;
+  }
   &:hover {
     @include zoomEffectAnimation;
   }
@@ -35,6 +49,10 @@
 .card-light {
   background-color: $color-cream;
   color: $color-primary-dark;
+  & .card-effect {
+    background-image: url(https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/overlay_Artboard-4_5.png);
+    opacity: 0.2;
+  }
 }
 
 .card-white {
@@ -58,4 +76,8 @@
     background-color: $color-primary-extra-light-3;
     border: 1px solid $color-primary;
   }
+}
+
+.padding-top-lg {
+  padding: 4rem 0;
 }

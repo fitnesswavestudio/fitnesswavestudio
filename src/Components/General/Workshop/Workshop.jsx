@@ -7,6 +7,7 @@ import { Button } from "./../../Utilities/Button/Button";
 import { VideoComponent } from "./../../Utilities/VideoComponent/VideoComponent";
 import { workshopData } from "../../../Data/Data";
 import { redirect, useNavigate } from "react-router-dom";
+import { ButtonSecondary } from "../../Utilities/Button/ButtonSecondary";
 
 export const Workshop = () => {
   const navigate = useNavigate();
@@ -16,7 +17,7 @@ export const Workshop = () => {
     navigate("/login");
   };
   return (
-    <Section styleColor="">
+    <Section styleColor="secondary">
       <Container>
         <div className="workshop">
           <div className="workshop--main">
@@ -28,9 +29,7 @@ export const Workshop = () => {
                   {...workshopData.buttonText}
                   clickHandler={joinWorkshopHandler}
                 />
-                <a href="#" className="workshop--main__link">
-                  See More &rarr;
-                </a>
+                <ButtonSecondary text="See More" link="/login" />
               </div>
             </div>
 

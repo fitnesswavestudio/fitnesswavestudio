@@ -2,7 +2,7 @@
 @import "./../../Styles/mixins";
 
 .header {
-  background-color: rgba($color-white, 0.7);
+  background-color: rgba($color-secondary, 0.7);
   border-bottom: 1px solid $color-grey-light-2;
   padding: 2.6rem 0;
 }
@@ -67,7 +67,7 @@
     width: max-content;
     position: absolute;
     margin-top: 0rem;
-    background-color: $color-white;
+    background-color: $color-secondary;
     z-index: 15;
     box-shadow: $box-shadow;
     padding: 2rem 3rem;

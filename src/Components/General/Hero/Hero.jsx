@@ -15,7 +15,7 @@ export const Hero = () => {
     navigate("/login");
   };
   return (
-    <Section styleColor="">
+    <Section styleColor="secondary">
       <Container>
         <div className="hero">
           <div className="hero-text-box">

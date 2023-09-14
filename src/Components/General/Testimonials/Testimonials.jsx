@@ -16,7 +16,7 @@ const TestimonialView = ({ src, alt, text, author }) => {
 
 export const Testimonials = () => {
   return (
-    <Section styleColor="">
+    <Section styleColor="secondary">
       <Container>
         <div className="testimonial">
           <div className="testimonial-main">

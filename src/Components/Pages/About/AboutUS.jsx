@@ -8,7 +8,7 @@ import { aboutData } from "../../../Data/Data";
 export const AboutUS = () => {
   return (
     <>
-      <Section styleColor="">
+      <Section styleColor="secondary">
         <Container>
           <div className="about">
             <div className="about--main">

@@ -7,6 +7,7 @@ import { Card } from "./../../Utilities/Card/Card";
 import { Normal } from "./../../Utilities/Card/Content/Normal";
 
 import { whyChooseData } from "../../../Data/Data";
+import { ButtonSecondary } from "../../Utilities/Button/ButtonSecondary";
 
 export const WhyChoose = () => {
   return (
@@ -22,6 +23,7 @@ export const WhyChoose = () => {
                   headingText={whyChooseData.primaryCard.headingText}
                   paragraphText={whyChooseData.primaryCard.paragraphText}
                 />
+                <ButtonSecondary text="Join the course " link="/login" />
               </Card>
             </div>
           </div>
@@ -30,6 +32,7 @@ export const WhyChoose = () => {
               return (
                 <Card key={idx} bgColor={val.bgColor}>
                   <Normal {...val} />
+                  <ButtonSecondary text="Join the course " link="/login" />
                 </Card>
               );
             })}
