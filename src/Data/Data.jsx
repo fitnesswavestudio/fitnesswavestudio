@@ -332,7 +332,7 @@ export const workshopData = {
     contextName: "Join Now",
     styleName: "btn-primary",
   },
-  videoUrl: "https://www.youtube.com/shorts/rZFBv4GThLw",
+  videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
 };
 
 //Meditation Data
