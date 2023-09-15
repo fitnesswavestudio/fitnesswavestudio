@@ -302,14 +302,13 @@ export const workshopData = {
   headingText: {
     primary: "Discover What's Next: Our Upcoming Fitness Workshops",
     secondary: "Upcoming workshop",
-    paragraphText:
-      "Face Yoga Workshop on 17th September 2023, 9 AM",
+    paragraphText: "Face Yoga Workshop on 17th September 2023, 9 AM",
   },
   buttonText: {
     contextName: "Join Now",
     styleName: "btn-primary",
   },
-  videoUrl: "https://www.youtube.com/shorts/rZFBv4GThLw",
+  videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
 };
 
 //Meditation Data
