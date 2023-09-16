@@ -82,7 +82,7 @@ export const Header = () => {
       <Container>
         <div className="navbar-items">
           <img
-            src="/assets/fws_logo_1x1.png"
+            src="/assets/fws_logo_horizontal.jpeg"
             alt="Fitness Studio Wave Logo"
             className="logo"
           ></img>

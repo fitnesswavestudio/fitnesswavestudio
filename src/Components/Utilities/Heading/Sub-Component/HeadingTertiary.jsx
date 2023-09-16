@@ -1,5 +1,5 @@
 import "./HeadingTertiary.scss";
 
 export const HeadingTertiary = ({ text }) => {
-  return <h3 className="heading-tertiary">{text}</h3>;
+  return <div className="heading-tertiary">{text}</div>;
 };
