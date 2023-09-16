@@ -10,7 +10,7 @@ export const aboutData = {
     paragraphText:
       "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and meditation, ensures that there's something for everyone on their journey to improved health and wellness."
   },
-  videoUrl: "https://www.youtube.com/shorts/rZFBv4GThLw",
+  videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
 };
 
 //Footer Data
@@ -55,7 +55,7 @@ export const footerData = {
 
 export const contactData = {
   logo: {
-    src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+    src: "/assets/fws_logo_1x1.png",
     alt: "Contact Us Logo",
     className: "img",
   },
@@ -208,31 +208,31 @@ export const termsAndConditionData = {
 export const testimonialsData = {
   reviews: [
     {
-      src: "/assets/fws_logo.jpeg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
       text: "I have come out of my chronic illness. U have shown me a way to come out of my chronic illness the moment I get back to my full health or at least half of my chronic illness gets cured and I am able to live my life normally",
       author: "- Sailaja Sreedhar",
     },
     {
-      src: "/assets/fws_logo.jpeg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
       text: "Really thankful to you for encouraging me and making me do yoga when I lost all hopes on my health. With your classes I now am sure I will recover from my ailments of celiac disease and will again get back to my normal life .best yoga trainer I have met ",
       author: "- Shruti Shukla",
     },
     {
-      src: "/assets/fws_logo.jpeg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
       text: "Fitness classes at Fitness Wave Studio have improved my flexibility and brought inner peace. I'm grateful for this transformative experience",
       author: "- Shivani Agrawal",
     },
     {
-      src: "/assets/fws_logo.jpeg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
       text: "I really enjoy the sessions. I feel more relaxed and have started feeling more energetic and gained confidence back after loosing 7 KGs of excess weignt. Thanks Sakshi for helping me gain my cofidence back.",
       author: "- Suzana",
     },
     {
-      src: "/assets/fws_logo.jpeg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
       text: "Amazing classes. I'm grateful to Poorva for paying good attention to each and every details and guides us better. Thanks for improving my lifestyle",
       author: "- Dhriti Singh",
@@ -337,7 +337,7 @@ export const meditationData = {
       "Meditation Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle meditation and tone",
@@ -403,7 +403,7 @@ export const nutritionData = {
       "nutrition Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle nutrition and tone",
@@ -470,7 +470,7 @@ export const pilatesData = {
       "Pilates Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -536,7 +536,7 @@ export const strengthTrainingData = {
       "Strength Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -603,7 +603,7 @@ export const yogaData = {
       "Yoga Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -670,7 +670,7 @@ export const zumbaData = {
       "Zumba Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
