@@ -12,6 +12,9 @@
   flex-wrap: wrap;
 }
 
+.logo {
+  height: 56px;
+}
 .main-nav {
   @include centerContent;
   &-list {
