@@ -240,7 +240,7 @@ export const testimonialsData = {
   ],
   gallery: [
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-K9QEMRY.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379567318_17877998759951764_7569808206240215768_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=ip8vf7RY9_EAX9UDiRh&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5Mzg4NTMyMDgyNzMxODUxOA%3D%3D.2-ccb7-5&oh=00_AfBS8boloySYAoU7qI-7-s-9_6Yh7w2ahWtMyvhiSpqUig&oe=650B0BDA&_nc_sid=ee9879",
       alt: "Image 1",
     },
     {
