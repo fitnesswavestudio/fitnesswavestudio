@@ -268,11 +268,11 @@ export const testimonialsData = {
       alt: "Image 7",
     },
     {
-      src: "https://scontent-bom1-2.cdninstagram.com/v/t51.2885-15/378523003_880406033657388_4153076601620418289_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=100&_nc_ohc=fdc1H-kU2CsAX-lKQZM&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE5MzI2MTI5ODM5NDEyMzQyNg%3D%3D.2-ccb7-5&oh=00_AfBPN7s1ftHIrFDiRY-uVswczaM-sl-hucXP0a_eqVUa4A&oe=650A5925&_nc_sid=ee9879",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379130923_17877886367951764_3141732820172878357_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Dv3spu3aQBQAX_jSaxe&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxNzg5NTE5MTYxODQ0OA%3D%3D.2-ccb7-5&oh=00_AfBMLuvBO7pNL96hLzIk9bnSQjXWInCjrK32ruyWQQn_-A&oe=650C3A1A&_nc_sid=ee9879",
       alt: "Image 8",
     },
     {
-      src: "https://scontent-bom1-1.cdninstagram.com/v/t51.2885-15/378417053_7022215767788778_5960816044306944336_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=2A9A1QNlbzkAX-bmm1Y&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE5MzI2MDY4MDk3NTg4NDQ4Mg%3D%3D.2-ccb7-5&oh=00_AfAlsOtNRAX1ejJuAE9xH5rP7CYjz0m0LNGnw2Txqf9bpQ&oe=650AAAE4&_nc_sid=ee9879",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379476738_17877886331951764_6113652283143925480_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=EPp74okobJ0AX-StzKU&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxNzg5NTIwMDAyNTg4Nw%3D%3D.2-ccb7-5&oh=00_AfCUK_TOa7-v1uPR_FsDtvSJ8yCLaQ_1dWYDcDWoIj1bbA&oe=650D0731&_nc_sid=ee9879",
       alt: "Image 9",
     },
   ],
