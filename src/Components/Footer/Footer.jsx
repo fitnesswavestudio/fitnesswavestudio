@@ -74,11 +74,8 @@ export const Footer = () => {
           </FooterLists>
 
           <FooterLists className="location" text={footerData.location.text}>
-            <iframe
-              src={footerData.location.src}
-              loading="lazy"
-              referredpolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <iframe width="400" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=400&amp;height=200&amp;hl=en&amp;q=%20Connaught%20place%20delhi+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
           </FooterLists>
         </div>
         <div className="footer-copyright">

@@ -15,7 +15,7 @@ export const WhyChoose = () => {
       <Container>
         <div className="section-why">
           <div className="section-why--row1">
-            <img {...whyChooseData.whyImage} />
+            <img {...whyChooseData.whyImage} styles={{maxHeight:'450px'}}/>
             <div className="section-why--row1__heading">
               <Heading {...whyChooseData.headingText} />
               <Card bgColor="card-light-dark">
