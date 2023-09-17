@@ -244,35 +244,35 @@ export const testimonialsData = {
       alt: "Image 1",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-5EDJ8JT.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378303361_17877886730951764_4669101904181654269_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=NibK9sTaezwAX-wFgNh&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxODc2NDU2MTc2ODE3OQ%3D%3D.2-ccb7-5&oh=00_AfCjpA61O8vQ7-jHEY7PA6bt34M-y4bWioKvxgJIhrpxQw&oe=650AC13F&_nc_sid=ee9879",
       alt: "Image 2",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378291472_17877885080951764_8447481118790796258_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=AXohtzfJ5XUAX_ncG8a&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxMDczMDA4NzA1NzQwNQ%3D%3D.2-ccb7-5&oh=00_AfBAAMgFXvbEwmY_Pni6bCLxgxnzGDz3ZeG9LNguRSY6kA&oe=650B0A12&_nc_sid=ee9879",
       alt: "Image 3",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-K9QEMRY.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379251042_17877886691951764_4796119165562774464_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=6NYR0_s-9R4AX8VsCZ0&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxODcxOTYwNzE1MTY3MA%3D%3D.2-ccb7-5&oh=00_AfByHYKSM0QZwCjD-JHuMYNqnPg317bE_r9CBy1GwuqzaA&oe=650A62B3&_nc_sid=ee9879",
       alt: "Image 4",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-5EDJ8JT.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378094458_17877878954951764_5359553697492165900_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=CKEwBR6fOaIAX98oZ7M&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzI4NTE5OTIxNjIzMjU3Nw%3D%3D.2-ccb7-5&oh=00_AfAhHKF6s-GKO063Upg6I8EB7KczkwUdgipf7FLJSF1IOg&oe=650A8780&_nc_sid=ee9879",
       alt: "Image 5",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378081353_17877885038951764_9068464886072199999_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=eqlHj8i6tTwAX_cc1Y3&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxMDQ3MjE2MjcxODAyMw%3D%3D.2-ccb7-5&oh=00_AfBmGpLPmxyOyJnU0itNsPuPR1GHkmUTaI6-QdbZcT8ruw&oe=650ACC68&_nc_sid=ee9879",
       alt: "Image 6",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-K9QEMRY.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379758255_17877876644951764_2472878048414129484_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=MBwweMFHZCoAX-33kcf&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzI3NzQzNDcxMTMzNTUzOQ%3D%3D.2-ccb7-5&oh=00_AfAcRqAx4vnlgWPbIxmzjYnz5UVc8jqV6Mw4cCLlOtwp6Q&oe=6509FB9B&_nc_sid=ee9879",
       alt: "Image 7",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-5EDJ8JT.jpg",
+      src: "https://scontent-bom1-2.cdninstagram.com/v/t51.2885-15/378523003_880406033657388_4153076601620418289_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=100&_nc_ohc=fdc1H-kU2CsAX-lKQZM&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE5MzI2MTI5ODM5NDEyMzQyNg%3D%3D.2-ccb7-5&oh=00_AfBPN7s1ftHIrFDiRY-uVswczaM-sl-hucXP0a_eqVUa4A&oe=650A5925&_nc_sid=ee9879",
       alt: "Image 8",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t51.2885-15/378417053_7022215767788778_5960816044306944336_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=2A9A1QNlbzkAX-bmm1Y&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE5MzI2MDY4MDk3NTg4NDQ4Mg%3D%3D.2-ccb7-5&oh=00_AfAlsOtNRAX1ejJuAE9xH5rP7CYjz0m0LNGnw2Txqf9bpQ&oe=650AAAE4&_nc_sid=ee9879",
       alt: "Image 9",
     },
   ],
