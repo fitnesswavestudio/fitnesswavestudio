@@ -599,9 +599,9 @@ export const yogaData = {
   },
   course: {
     headingData: [
-      "Yoga meditation gives you etc etc etc",
-      "Yoga Course",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Explore Yoga: Path to Inner Harmony",
+      "Yoga",
+      "We are passionate about guiding individuals of all ages and fitness levels through the transformative journey of yoga. Our experienced instructors believe in the power of yoga to nourish the body, mind, and soul.",
     ],
     videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
@@ -613,45 +613,46 @@ export const yogaData = {
       "Cardio and circulatory health",
       "Improved athletic performance",
       "Protection from injury",
+      "Relief from PCOD & PCOS"
     ],
   },
 
   trainer: {
     headingData: [
-      "Get familier with your trainer in your jorney",
+      "Get familier with your trainer in your journey",
       "Know your Trainer",
-      " → Annabelle",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ea odio nostrum officiis tenetur.",
+      " → Yog Sakshi",
+      "Introducing Sakshi, our dedicated founder and yoga instructor. With a deep understanding of yoga philosophy and a nurturing teaching style, Sakshi creates a harmonious environment for growth and transformation. Her classes blend traditional wisdom with modern practices, encouraging students to find balance, serenity, and strength on and off the mat. Join Sakshi's class for a holistic yoga experience.",
     ],
     socialLinks: { facebook: "#", instagram: "#", twitter: "#" },
     trainerImageData: {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-2S2SDH3-1536x1536.jpg",
+      src: "assets/sakshi_hero.jpeg",
       alt: "Trainer Image",
     },
   },
   pricing: {
     pricingCardData: [
       {
-        plan: "Easy",
-        price: "499.00",
-        pricingText: "Lorem ipsum dolor sit amet",
-        planBenefit: ["Lorem", "Lorem", "Lorem", "Lorem"],
+        plan: "1 Month",
+        price: "1199.00",
+        pricingText: "Plan for 1 month Regular Classes",
+        planBenefit: ["Live Classes", "Lorem", "Lorem", "Lorem"],
       },
       {
-        plan: "Medium",
-        price: "799.00",
-        pricingText: "Lorem ipsum dolor sit amet",
-        planBenefit: ["Lorem", "Lorem", "Lorem", "Lorem"],
+        plan: "3 Month",
+        price: "2999.00",
+        pricingText: "Plan for 3 month Regular Classes",
+        planBenefit: ["Live Classes", "Free Diet Plan", "Lorem", "Lorem"],
       },
       {
-        plan: "Hard",
-        price: "999.00",
-        pricingText: "Lorem ipsum dolor sit amet",
-        planBenefit: ["Lorem", "Lorem", "Lorem", "Lorem"],
+        plan: "6 Month",
+        price: "4999.00",
+        pricingText: "Plan for 6 month Regular Classes",
+        planBenefit: ["Live Classes", "Free Diet Plan", "Lorem", "Lorem"],
       },
     ],
     headingData: [
-      "A pricing that you will get nowhere else. Lorem ipsum dolor sit amet",
+      "A pricing that you will get nowhere else",
       "Pricing Plan",
     ],
   },

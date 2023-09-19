@@ -33,18 +33,6 @@ export const Trainer = ({ headingData, socialLinks, trainerImageData }) => {
             <div className={className_Name}>
               <HeadingTertiary text={HeadingTertiaryText} />
               <Paragraph paragraphText={paragraphText} />
-
-              <ul className={classNameSocialLinks}>
-                {socialIcons.map((val, key) => {
-                  return (
-                    <li key={key} className={classNameSocialLink}>
-                      <a href={socialLinks[val]}>
-                        <ion-icon name={"logo-" + val}></ion-icon>
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
             </div>
           </div>
           <img
