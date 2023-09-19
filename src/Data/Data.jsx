@@ -5,12 +5,12 @@
 
 export const aboutData = {
   headingText: {
-    primary: "Happiness is a decision, not a destination. Realize it with us!",
+    primary: "Unleash Your Best Self with Us!!",
     secondary: "About Fitness Wave Studio",
     paragraphText:
-      "At Fitness Wave Studio, our vision is to redefine how individuals engage with fitness, regardless of their geographical location. We've developed an online fitness platform that caters to the modern lifestyle, delivering a diverse range of virtual classes including yoga, calisthenics, zumba, and more",
+      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and meditation, ensures that there's something for everyone on their journey to improved health and wellness."
   },
-  videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+  videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
 };
 
 //Footer Data
@@ -18,38 +18,36 @@ export const aboutData = {
 export const footerData = {
   logo: {
     text: "Fitness Wave Studio",
-    tagline: "Lorem ipsum dolor, sit amet consectetur.",
+    tagline: "Sweat, Smile, Repeat: Your Fitness Journey Starts Here!",
   },
   getintouch: {
     text: "Get In Touch",
     address: [
       //Dont Change icon
-      { icon: "home-outline", text: "123, Beker Street" },
-      { icon: "mail-outline", text: "abc@example.com" },
-      { icon: "call-outline", text: "+91 9999998877" },
-      { icon: "time-outline", text: "9:00 - 9:00" },
+      { icon: "home-outline", text: "Connaught Place, New Delhi" },
+      { icon: "mail-outline", text: "contact@fitnesswavestudio.com" },
+      { icon: "call-outline", text: "+91 78937-51525" }
     ],
   },
   quicklinks: {
     text: "Quick Links",
     links: [
-      { text: "About Company", src: "#" },
-      { text: "Blogs", src: "#" },
-      { text: "Refund Policy", src: "#" },
-      { text: "Contact Us", src: "#" },
+      { text: "About Company", src: "https://www.fitnesswavestudio.com/about" },
+      { text: "Blogs", src: "https://www.fitnesswavestudio.com/blogs" },
+      { text: "Refund Policy", src: "https://www.fitnesswavestudio.com/about/#refund" },
+      { text: "Contact Us", src: "https://www.fitnesswavestudio.com/#contact" },
     ],
   },
   location: {
     text: "Location",
-    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.464946629981!2d77.36091877386757!3d28.40522429436961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdcd791431a7f%3A0xe5d6020d9cf2e006!2sPuri%20Pratham%20Society!5e0!3m2!1sen!2sin!4v1692696785387!5m2!1sen!2sin",
+    src: "https://maps.google.com/maps?width=400&amp;height=200&amp;hl=en&amp;q=%20Connaught%20place%20delhi+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed",
   },
 
   socialLinks: [
     //Dont Change icon
-    { icon: "logo-instagram", src: "#" },
-    { icon: "logo-facebook", src: "#" },
-    { icon: "logo-twitter", src: "#" },
-    { icon: "logo-youtube", src: "#" },
+    { icon: "logo-instagram", src: "https://www.instagram.com/fitnesswavestudio" },
+    { icon: "logo-facebook", src: "https://www.facebook.com/FitnessWaveStudio" },
+    { icon: "logo-youtube", src: "https://www.youtube.com/@fitnesswavestudio" },
   ],
 };
 
@@ -57,7 +55,7 @@ export const footerData = {
 
 export const contactData = {
   logo: {
-    src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+    src: "/assets/fws_logo_1x1.png",
     alt: "Contact Us Logo",
     className: "img",
   },
@@ -79,10 +77,10 @@ export const contactData = {
 
 export const heroData = {
   heroText: {
-    primary: "Unleash Your Best Self with Us!",
-    secondary: "Your Path to Wellness",
+    primary: "Your Path to Wellness",
+    secondary: "Unleash Your Best Self with Us!!",
     paragraphText:
-      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and meditation",
+      "At Fitness Wave Studio, we take pride in offering an unparalleled online fitness experience that caters to individuals of all fitness levels. Our wide array of classes, ranging from yoga and strength training to Zumba, Pilates, and Meditation, ensures that there's something for everyone on their journey to improved health and wellness.",
   },
 
   heroBtn: {
@@ -90,8 +88,8 @@ export const heroData = {
     styleName: "btn-primary",
   },
   heroImg: {
-    src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/tabitha-turner-vuQP4z9B9Ac-unsplash.jpg",
-    alt: "Fitnerss Stusio Wave hero image",
+    src: "/assets/sakshi_hero.jpeg",
+    alt: "Fitnerss Wave Studio hero image",
     className: "hero-img",
   },
 };
@@ -102,27 +100,27 @@ export const faqData = {
   questionAnswer: [
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "How do I join fitness wave studio?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "To join our online fitness studio, simply fill enrollment form on our website or reachout to us on instagram and sign up for a membership. Once registered, you'll gain access to our classes and resources.",
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "What types of workouts do you offer?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "We offer a wide range of workouts, including Yoga, HIIT, strength training, dance, Pilates, and more. You can choose from a variety of classes that suit your fitness goals and preferences.",
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "Can beginners join your classes?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "Absolutely! Our classes are designed to accommodate all fitness levels, from beginners to advanced. Our instructors provide options for different skill levels within each class.",
     },
     {
       questionText:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti",
+        "Do you offer a trial class?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet est deleniti asperiores obcaecati soluta et exercitationem? Architecto rerum magni itaque dolorum culpa corporis, suscipit consectetur, cupiditate dolorem aliquid beatae!",
+        "Yes, we have option for trial class for new members. You need to pay a small amount for a single day trial class which will be reimbursable on buying class subscription",
     },
   ],
 };
@@ -132,26 +130,26 @@ export const faqData = {
 export const meetCoachData = {
   trainerInfo: [
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-2S2SDH3-1536x1536.jpg",
+      src: "/assets/poorva_cropped.jpeg",
       alt: "Trainer Image",
-      trainerType: "Yoga Trainer",
-      trainerName: "Annabelle",
+      trainerType: "Certified Yoga Trainer",
+      trainerName: "Poorva",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-2S2SDH3-1536x1536.jpg",
+      src: "/assets/sofie.jpeg",
       alt: "Trainer Image",
-      trainerType: "Yoga Trainer",
-      trainerName: "Annabelle",
-    },
+      trainerType: "Certified Yoga Trainer",
+      trainerName: "Sofia",
+    }
   ],
   headingTexts: {
-    primary: "Your guide for Fitness Success",
-    secondary: "meet your coach",
+    primary: "Talented Trainers From All Over The World",
+    secondary: "OUR TRAINERS",
     paragraphText:
-      "Seasoned trainers bring over 10,000 hours of training experience, with a minimum of 3+ years in their respective fields",
+      "Our handpicked trainers hail from around the globe, bringing diverse expertise and a passion for excellence. With a proven track record, they inspire learning, ensuring a dynamic and insightful experience for all participants.",
   },
   buttonText: {
-    contextName: "Enroll Now →",
+    contextName: "See More →",
     styleName: "btn-primary",
   },
 };
@@ -162,34 +160,34 @@ export const refundPolicyData = {
   qna: [
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Can I request a refund for my purchase?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "No, we do not offer refunds for any of our products or services. This includes memberships, classes or digital content.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "What if I'm not satisfied with a product or service I purchased?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "We strive to provide the best possible experience. If you have concerns or are unsatisfied with your purchase, please contact our customer support team, and we will do our best to assist you.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Can I get a refund if I accidentally made a duplicate purchase?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "Unfortunately, we are unable to process refunds for accidental duplicate purchases.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Do you offer refunds for canceled memberships or unused classes?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
+        "No, we do not offer refunds for canceled memberships or unused classes. We recommend reviewing our cancellation and membership policies before making a commitment.",
     },
     {
       question:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni",
+        "Do you offer refunds for trial classes?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea, unde dolores officia quia id nobis obcaecati veniam magni possimus commodi error porro, nesciunt, excepturi blanditiis corporis nemo fugiat nulla.",
-    },
+        "Trial classes are non refundable. However we reimburse the amount on purchase of monthly subscription",
+    }
   ],
 };
 
@@ -201,7 +199,7 @@ export const termsAndConditionData = {
     tertiary: "Privacy and Policy",
   },
   terms: {
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quas optio repellat molestiae et numquam, dicta fugit beatae non omnis magni architecto rem a, iusto ipsam distinctio alias praesentium laudantium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non neque consequuntur itaque, cupiditate dolorum aliquam harum maiores qui quo et ducimus odio. Perferendis possimus amet, tempora rem provident eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum accusantium porro, facilis autem assumenda distinctio aut ut nemo ex voluptates beatae id doloremque explicabo sint adipisci. Eius a sapiente molestiae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sunt maxime nesciunt voluptatum suscipit accusamus, cum officiis enim esse neque vitae quod inventore repudiandae, minima eum accusantium nobis provident ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut modi repudiandae corrupti unde impedit eveniet veniam exercitationem cum tenetur quia. Quaerat molestias culpa architecto, atque rerum qui rem ad error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium aliquam soluta autem in id unde deserunt, quam, laudantium optio quisquam repellendus fuga similique placeat quae, architecto ducimus quas non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi voluptates quasi voluptatum, impedit consectetur nihil dolorem, ut magni architecto maiores rerum reprehenderit non quas reiciendis sapiente exercitationem minus? Voluptatem, animi?",
+    text: "By accessing or using Fitness Wave Studio (the \"Website\" or \"Service\"), you agree to comply with and be bound by these Terms and Conditions. You must be at least 18 years old to use our Service and are responsible for maintaining the confidentiality of your account credentials. You agree to use the Service for lawful purposes only, and details about payment methods, fees, and our refund policy are outlined. All content on the Website is owned by or licensed to us and is protected by copyright and other intellectual property laws. You are solely responsible for any content you post on the Website, and we reserve the right to remove or modify user-generated content that violates our policies. Reference to your Privacy Policy (include a link). We are not responsible for any damages or losses resulting from your use of the Service, and we reserve the right to terminate or suspend your account and access to the Service at our discretion. These Terms and Conditions are governed by the laws of [Your Jurisdiction], and we may update them at any time. Regarding your Privacy Policy, explain the types of personal and non-personal information you collect, how you use it, data sharing, cookies, data security, user choices, third-party links, children's privacy, changes to the policy, and provide contact information for privacy-related concerns. By using our Service, you acknowledge and agree that Fintess Wave Studio and its affiliates, employees, and partners shall not be held liable for any direct, indirect, incidental, consequential, or special damages, including but not limited to damages for loss of profits, goodwill, data, or other intangible losses, even if we have been advised of the possibility of such damages. You use our Service at your own risk, and we make no warranties or representations regarding its accuracy, reliability, or fitness for a particular purpose.",
   },
 };
 
@@ -210,53 +208,71 @@ export const termsAndConditionData = {
 export const testimonialsData = {
   reviews: [
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
       text: "I have come out of my chronic illness. U have shown me a way to come out of my chronic illness the moment I get back to my full health or at least half of my chronic illness gets cured and I am able to live my life normally",
-      author: "- Shalini",
+      author: "- Sailaja Sreedhar",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-74M95XX-1536x1536.jpg",
+      src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
-      text: "Now I’m sure I will recover from my ailments of celiac disease. Really thankful to you for encouraging me and making me do yoga when I lost all hopes on my health. With your classes I now am sure I will recover from my ailments of celiac disease and will again get back to my normal life .best yoga trainer I have met 🙏🙏🙏",
-      author: "- Avni",
+      text: "Really thankful to you for encouraging me and making me do yoga when I lost all hopes on my health. With your classes I now am sure I will recover from my ailments of celiac disease and will again get back to my normal life .best yoga trainer I have met ",
+      author: "- Shruti Shukla",
+    },
+    {
+      src: "/assets/fws_logo_1x1.png",
+      alt: "Testimonial User Image",
+      text: "Fitness classes at Fitness Wave Studio have improved my flexibility and brought inner peace. I'm grateful for this transformative experience",
+      author: "- Shivani Agrawal",
+    },
+    {
+      src: "/assets/fws_logo_1x1.png",
+      alt: "Testimonial User Image",
+      text: "I really enjoy the sessions. I feel more relaxed and have started feeling more energetic and gained confidence back after loosing 7 KGs of excess weignt. Thanks Sakshi for helping me gain my cofidence back.",
+      author: "- Suzana",
+    },
+    {
+      src: "/assets/fws_logo_1x1.png",
+      alt: "Testimonial User Image",
+      text: "Amazing classes. I'm grateful to Poorva for paying good attention to each and every details and guides us better. Thanks for improving my lifestyle",
+      author: "- Dhriti Singh",
     },
   ],
   gallery: [
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-K9QEMRY.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379567318_17877998759951764_7569808206240215768_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=ip8vf7RY9_EAX9UDiRh&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5Mzg4NTMyMDgyNzMxODUxOA%3D%3D.2-ccb7-5&oh=00_AfBS8boloySYAoU7qI-7-s-9_6Yh7w2ahWtMyvhiSpqUig&oe=650B0BDA&_nc_sid=ee9879",
       alt: "Image 1",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-5EDJ8JT.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378303361_17877886730951764_4669101904181654269_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=NibK9sTaezwAX-wFgNh&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxODc2NDU2MTc2ODE3OQ%3D%3D.2-ccb7-5&oh=00_AfCjpA61O8vQ7-jHEY7PA6bt34M-y4bWioKvxgJIhrpxQw&oe=650AC13F&_nc_sid=ee9879",
       alt: "Image 2",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378291472_17877885080951764_8447481118790796258_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=AXohtzfJ5XUAX_ncG8a&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxMDczMDA4NzA1NzQwNQ%3D%3D.2-ccb7-5&oh=00_AfBAAMgFXvbEwmY_Pni6bCLxgxnzGDz3ZeG9LNguRSY6kA&oe=650B0A12&_nc_sid=ee9879",
       alt: "Image 3",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-K9QEMRY.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379251042_17877886691951764_4796119165562774464_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=6NYR0_s-9R4AX8VsCZ0&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxODcxOTYwNzE1MTY3MA%3D%3D.2-ccb7-5&oh=00_AfByHYKSM0QZwCjD-JHuMYNqnPg317bE_r9CBy1GwuqzaA&oe=650A62B3&_nc_sid=ee9879",
       alt: "Image 4",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-5EDJ8JT.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378094458_17877878954951764_5359553697492165900_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=CKEwBR6fOaIAX98oZ7M&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzI4NTE5OTIxNjIzMjU3Nw%3D%3D.2-ccb7-5&oh=00_AfAhHKF6s-GKO063Upg6I8EB7KczkwUdgipf7FLJSF1IOg&oe=650A8780&_nc_sid=ee9879",
       alt: "Image 5",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/378081353_17877885038951764_9068464886072199999_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=eqlHj8i6tTwAX_cc1Y3&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxMDQ3MjE2MjcxODAyMw%3D%3D.2-ccb7-5&oh=00_AfBmGpLPmxyOyJnU0itNsPuPR1GHkmUTaI6-QdbZcT8ruw&oe=650ACC68&_nc_sid=ee9879",
       alt: "Image 6",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-K9QEMRY.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379758255_17877876644951764_2472878048414129484_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=MBwweMFHZCoAX-33kcf&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzI3NzQzNDcxMTMzNTUzOQ%3D%3D.2-ccb7-5&oh=00_AfAcRqAx4vnlgWPbIxmzjYnz5UVc8jqV6Mw4cCLlOtwp6Q&oe=6509FB9B&_nc_sid=ee9879",
       alt: "Image 7",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/woman-practising-yoga-indoors-5EDJ8JT.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379130923_17877886367951764_3141732820172878357_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Dv3spu3aQBQAX_jSaxe&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxNzg5NTE5MTYxODQ0OA%3D%3D.2-ccb7-5&oh=00_AfBMLuvBO7pNL96hLzIk9bnSQjXWInCjrK32ruyWQQn_-A&oe=650C3A1A&_nc_sid=ee9879",
       alt: "Image 8",
     },
     {
-      src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/yoga-meditation-5AC4LR8.jpg",
+      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379476738_17877886331951764_6113652283143925480_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=EPp74okobJ0AX-StzKU&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxNzg5NTIwMDAyNTg4Nw%3D%3D.2-ccb7-5&oh=00_AfCUK_TOa7-v1uPR_FsDtvSJ8yCLaQ_1dWYDcDWoIj1bbA&oe=650D0731&_nc_sid=ee9879",
       alt: "Image 9",
     },
   ],
@@ -265,7 +281,7 @@ export const testimonialsData = {
 //Why Choose Us
 export const whyChooseData = {
   headingText: {
-    primary: "Versatility in Fitness Programs",
+    primary: "Your Partner in Achieving Fitness Excellence!",
     secondary: "why choose us?",
   },
   whyImage: {
@@ -274,7 +290,6 @@ export const whyChooseData = {
   },
 
   primaryCard: {
-    bgColor: "card-light-dark",
     headingText: "Versatility in Fitness Programs",
     paragraphText:
       "Our online studio covers a comprehensive range of fitness disciplines, allowing our clients to explore various options and find what resonates best with their preferences and goals.",
@@ -282,13 +297,11 @@ export const whyChooseData = {
 
   secondaryCard: [
     {
-      bgColor: "card-dark",
       headingText: "Interactive Sessions",
       paragraphText:
         "Our online classes are designed to be interactive, fostering a sense of community and camaraderie among participants.",
     },
     {
-      bgColor: "card-light",
       headingText: "Convenience of Online Classes",
       paragraphText:
         "Embracing the digital age, we offer online classes that can be accessed from the comfort of your own home or anywhere with an internet connection.",
@@ -324,7 +337,7 @@ export const meditationData = {
       "Meditation Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle meditation and tone",
@@ -390,7 +403,7 @@ export const nutritionData = {
       "nutrition Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle nutrition and tone",
@@ -457,7 +470,7 @@ export const pilatesData = {
       "Pilates Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -523,7 +536,7 @@ export const strengthTrainingData = {
       "Strength Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -590,7 +603,7 @@ export const yogaData = {
       "Yoga Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -657,7 +670,7 @@ export const zumbaData = {
       "Zumba Training Course",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     ],
-    videoUrl: "https://www.youtube.com/embed/uHz2ng84hFE",
+    videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
       "Increased flexibility",
       "Increased muscle strength and tone",
@@ -716,7 +729,7 @@ export const featuredPortfolioData = [
   {
     svg: `<svg width="64px" height="64px" viewBox="-102.4 -102.4 1228.80 1228.80" fill="#000000" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M324.8 440c34.4 0 62.4-28 62.4-62.4s-28-62.4-62.4-62.4-62.4 28-62.4 62.4 28 62.4 62.4 62.4z m374.4 0c34.4 0 62.4-28 62.4-62.4s-28-62.4-62.4-62.4-62.4 28-62.4 62.4 28 62.4 62.4 62.4zM340 709.6C384 744 440.8 764.8 512 764.8s128-20.8 172-55.2c26.4-21.6 42.4-42.4 50.4-58.4 6.4-12 0.8-27.2-11.2-33.6s-27.2-0.8-33.6 11.2c-0.8 1.6-3.2 6.4-8 12-7.2 10.4-17.6 20-28.8 29.6-34.4 28-80.8 44.8-140.8 44.8s-105.6-16.8-140.8-44.8c-12-9.6-21.6-20-28.8-29.6-4-5.6-7.2-9.6-8-12-6.4-12-20.8-17.6-33.6-11.2s-17.6 20.8-11.2 33.6c8 16 24 36.8 50.4 58.4z" fill=""></path><path d="M512 1010.4c-276.8 0-502.4-225.6-502.4-502.4S235.2 5.6 512 5.6s502.4 225.6 502.4 502.4-225.6 502.4-502.4 502.4zM512 53.6C261.6 53.6 57.6 257.6 57.6 508s204 454.4 454.4 454.4 454.4-204 454.4-454.4S762.4 53.6 512 53.6z" fill=""></path></g></svg>
           `,
-    headingText: "1000+",
+    headingText: "2000+",
     text: "Happy Clients",
   },
   {
@@ -726,13 +739,13 @@ export const featuredPortfolioData = [
   },
   {
     svg: `<svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.4" d="M17.5291 7.77C17.4591 7.76 17.3891 7.76 17.3191 7.77C15.7691 7.72 14.5391 6.45 14.5391 4.89C14.5391 3.3 15.8291 2 17.4291 2C19.0191 2 20.3191 3.29 20.3191 4.89C20.3091 6.45 19.0791 7.72 17.5291 7.77Z" fill="#292D32"></path> <path opacity="0.4" d="M20.7896 14.6999C19.6696 15.4499 18.0996 15.7299 16.6496 15.5399C17.0296 14.7199 17.2296 13.8099 17.2396 12.8499C17.2396 11.8499 17.0196 10.8999 16.5996 10.0699C18.0796 9.86992 19.6496 10.1499 20.7796 10.8999C22.3596 11.9399 22.3596 13.6499 20.7896 14.6999Z" fill="#292D32"></path> <path opacity="0.4" d="M6.44039 7.77C6.51039 7.76 6.58039 7.76 6.65039 7.77C8.20039 7.72 9.43039 6.45 9.43039 4.89C9.43039 3.3 8.14039 2 6.54039 2C4.95039 2 3.65039 3.29 3.65039 4.89C3.66039 6.45 4.89039 7.72 6.44039 7.77Z" fill="#292D32"></path> <path opacity="0.4" d="M6.54914 12.8501C6.54914 13.8201 6.75914 14.7401 7.13914 15.5701C5.72914 15.7201 4.25914 15.4201 3.17914 14.7101C1.59914 13.6601 1.59914 11.9501 3.17914 10.9001C4.24914 10.1801 5.75914 9.8901 7.17914 10.0501C6.76914 10.8901 6.54914 11.8401 6.54914 12.8501Z" fill="#292D32"></path> <path d="M12.1208 15.87C12.0408 15.86 11.9508 15.86 11.8608 15.87C10.0208 15.81 8.55078 14.3 8.55078 12.44C8.55078 10.54 10.0808 9 11.9908 9C13.8908 9 15.4308 10.54 15.4308 12.44C15.4308 14.3 13.9708 15.81 12.1208 15.87Z" fill="#292D32"></path> <path d="M8.87078 17.9399C7.36078 18.9499 7.36078 20.6099 8.87078 21.6099C10.5908 22.7599 13.4108 22.7599 15.1308 21.6099C16.6408 20.5999 16.6408 18.9399 15.1308 17.9399C13.4208 16.7899 10.6008 16.7899 8.87078 17.9399Z" fill="#292D32"></path> </g></svg>`,
-    headingText: "20+",
+    headingText: "5+",
     text: "Expert Trainers",
   },
   {
     svg: `<svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5C3 6.30622 3.83481 7.41746 5 7.82929V16.1707C3.83481 16.5825 3 17.6938 3 19C3 20.6569 4.34315 22 6 22C7.65685 22 9 20.6569 9 19C9 17.6938 8.16519 16.5825 7 16.1707V11.3987C8.89299 14.0198 11.8676 15.7195 15.1597 15.9683C15.5625 17.15 16.682 18 18 18C19.6569 18 21 16.6569 21 15C21 13.3431 19.6569 12 18 12C16.7075 12 15.6058 12.8174 15.1839 13.9635C11.726 13.6534 8.7142 11.3899 7.47847 8.09457L7.3272 7.6912C8.31833 7.20148 9 6.18034 9 5C9 3.34315 7.65685 2 6 2C4.34315 2 3 3.34315 3 5ZM6 18C5.44772 18 5 18.4477 5 19C5 19.5523 5.44772 20 6 20C6.55228 20 7 19.5523 7 19C7 18.4477 6.55228 18 6 18ZM17 15C17 14.4477 17.4477 14 18 14C18.5523 14 19 14.4477 19 15C19 15.5523 18.5523 16 18 16C17.4477 16 17 15.5523 17 15ZM5 5C5 4.44772 5.44772 4 6 4C6.55228 4 7 4.44772 7 5C7 5.55228 6.55228 6 6 6C5.44772 6 5 5.55228 5 5Z" fill="#000000"></path> </g></svg>
           `,
-    headingText: "5+",
+    headingText: "6+",
     text: "Daily Batches",
   },
 ];

@@ -19,7 +19,7 @@ const Policy = ({ question, answer }) => {
 
 export const RefundPolicy = () => {
   return (
-    <Section styleColor="primary">
+    <Section styleColor="primary"  id="refund">
       <Container>
         <div className="refund-policy">
           <HeadingSecondary headingText="Refund Policy" />

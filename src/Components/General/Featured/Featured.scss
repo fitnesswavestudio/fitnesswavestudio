@@ -3,6 +3,7 @@
   padding: 2rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  background-color: $color-secondary;
   gap: 4rem;
   &-data {
     background-color: $color-secondary;
@@ -11,7 +12,7 @@
   }
   &-head {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     justify-content: center;
     place-items: center;
     align-items: center;
