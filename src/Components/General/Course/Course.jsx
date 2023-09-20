@@ -2,7 +2,6 @@ import "./Course.scss";
 import { Section } from "./../../Utilities/Section/Section";
 import { Container } from "./../../Utilities/Container/Container";
 import { HeadingParagraph } from "./../../Utilities/Heading/HeadingParagraph";
-import { VideoComponent } from "./../../Utilities/VideoComponent/VideoComponent";
 
 const Benefit = ({ className, data }) => {
   const classNameBenefits = className + "-benefits";
@@ -46,10 +45,6 @@ export const Course = ({ headingData, videoUrl, benefitsData }) => {
                 paragraphText={paragraphText}
               />
               <Benefit className={classNameMainText} data={benefitsData} />
-            </div>
-
-            <div className={classNameMainVideo}>
-              <VideoComponent videoUrl={videoUrl} />
             </div>
           </div>
           <div className={classNameCategories}></div>

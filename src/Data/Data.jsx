@@ -606,15 +606,14 @@ export const yogaData = {
     ],
     videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
     benefitsData: [
-      "Increased flexibility",
-      "Increased muscle strength and tone",
-      "Improved respiration, energy and vitality",
-      "Maintaining a balanced metabolism",
-      "Weight reduction",
-      "Cardio and circulatory health",
-      "Improved athletic performance",
-      "Protection from injury",
-      "Relief from PCOD & PCOS"
+      "Better hormonal health - reduce symptoms of PMS and menstrual cramps",
+      "Better bone health reducing risk of osteoporosis",
+      "Confidence and self-esteem",
+      "Better weight management and control",
+      "Build Power, Flexibility and Overall Body Strength",
+      "Improves Breathing & sleeping patterns",
+      "Muscle Toning & Core Strengthening",
+      "Reduce Anxiety and Stress"
     ],
   },
 
@@ -807,7 +806,7 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Fitness Wave Studio offers support and motivation through personalized guidance, live instructor interaction, and a vibrant online community to keep you motivated in your fitness journey",
+      "Personalized guidance, live instructors, and vibrant community for your fitness journey's motivation.",
     headingText: "Support and Motivation",
   },
 
@@ -851,10 +850,43 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Fitness Wave Studio's seasoned trainers bring over 10,000 hours of training experience, with a minimum of 3+ years in their respective fields, backed by certifications to provide expert guidance",
+      "Our certified trainers bring over 10,000 hours of training experience",
     headingText: "Experience Trainer",
   },
 
+  {
+    svg: `<svg
+        width="64px"
+        height="64px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="#1C274C"
+            stroke-width="1.5"
+          ></circle>
+          <path
+            d="M15.4137 10.941C16.1954 11.4026 16.1954 12.5974 15.4137 13.059L10.6935 15.8458C9.93371 16.2944 9 15.7105 9 14.7868L9 9.21316C9 8.28947 9.93371 7.70561 10.6935 8.15419L15.4137 10.941Z"
+            stroke="#1C274C"
+            stroke-width="1.5"
+          ></path>
+        </g>
+      </svg>`,
+    paragraphText:
+      "We deliver online courses for yoga, Zumba, and Pilates via Zoom for interactive and convenient learning",
+    headingText: "Live Classes",
+  },
   {
     svg: `<svg
         fill="#000000"
@@ -897,41 +929,7 @@ export const featuredData = [
         </g>
       </svg>`,
     paragraphText:
-      "Fitness Wave Studio offers the ideal nutrition support with personalized Ayurvedic diet plans",
+      "We offer the ideal nutrition support with balanced Ayurvedic diet plans",
     headingText: "Right Nutrition",
-  },
-
-  {
-    svg: `<svg
-        width="64px"
-        height="64px"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g
-          id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <circle
-            cx="12"
-            cy="12"
-            r="10"
-            stroke="#1C274C"
-            stroke-width="1.5"
-          ></circle>
-          <path
-            d="M15.4137 10.941C16.1954 11.4026 16.1954 12.5974 15.4137 13.059L10.6935 15.8458C9.93371 16.2944 9 15.7105 9 14.7868L9 9.21316C9 8.28947 9.93371 7.70561 10.6935 8.15419L15.4137 10.941Z"
-            stroke="#1C274C"
-            stroke-width="1.5"
-          ></path>
-        </g>
-      </svg>`,
-    paragraphText:
-      "Fitness Wave Studio delivers online courses for yoga, Zumba, and Pilates via Zoom for interactive and convenient learning",
-    headingText: "Online Course",
   },
 ];

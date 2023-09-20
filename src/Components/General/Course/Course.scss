@@ -5,7 +5,7 @@
   //@include flexLayout(flex-start, flex-start, column, 4rem);
   padding: 2rem 0;
   &--main {
-    @include gridLayout(auto, repeat(2, 1fr), 0, 2rem);
+    display:block;
 
     &__button {
       @include flexLayout(flex-start, center, row, 5rem);
