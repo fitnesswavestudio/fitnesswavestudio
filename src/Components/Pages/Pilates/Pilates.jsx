@@ -3,13 +3,15 @@ import { PricingPlan } from "./../../General/PricingPlan/PricingPlan";
 import { Trainer } from "./../../General/Trainer/Trainer";
 import { Course } from "./../../General/Course/Course";
 import { pilatesData } from "../../../Data/Data";
+import { ComingSoon } from "../ComingSoon/ComingSoon";
 export const Pilates = () => {
   return (
     <>
       <HeadingPage {...pilatesData.heading} />
-      <Course {...pilatesData.course} />
+      <ComingSoon/>
+      {/* <Course {...pilatesData.course} />
       <Trainer {...pilatesData.trainer} />
-      <PricingPlan {...pilatesData.pricing} />
+      <PricingPlan {...pilatesData.pricing} /> */}
     </>
   );
 };

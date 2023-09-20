@@ -1,0 +1,38 @@
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &-head {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    & ion-icon {
+      font-size: 8rem;
+      color: rgb(224, 124, 24);
+    }
+  }
+  .heading {
+    &-primary {
+      margin-top: 0;
+      font-size: 9rem;
+      @media only screen and (max-width: 26em) {
+        font-size: 6rem;
+      }
+    }
+    &-tertiary {
+      text-align: center;
+      font-size: 4rem;
+      @media only screen and (max-width: 26em) {
+        font-size: 3rem;
+      }
+    }
+  }
+}
