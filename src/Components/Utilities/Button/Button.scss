@@ -1,7 +1,7 @@
 @import "./../../../Styles/variables";
 @import "./../../../Styles/mixins";
 
-.btn {
+.button {
   @include generalTextFormatting;
   border: none;
   letter-spacing: 1px;

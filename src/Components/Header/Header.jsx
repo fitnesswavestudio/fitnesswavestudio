@@ -112,7 +112,7 @@ export const Header = () => {
             </ul>
           </nav>
           <Button
-            styleName="btn-primary"
+            styleName="button-primary"
             contextName="Join us"
             clickHandler={joinUsHandler}
           />

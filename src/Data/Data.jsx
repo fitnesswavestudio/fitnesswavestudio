@@ -69,7 +69,7 @@ export const contactData = {
 
   button: {
     contextName: "Send Message",
-    styleName: "btn-primary flex-start",
+    styleName: "button-primary flex-start",
   },
 };
 
@@ -85,7 +85,7 @@ export const heroData = {
 
   heroBtn: {
     contextName: "Get Started →",
-    styleName: "btn-primary",
+    styleName: "button-primary",
   },
   heroImg: {
     src: "/assets/sakshi_hero.jpeg",
@@ -150,7 +150,7 @@ export const meetCoachData = {
   },
   buttonText: {
     contextName: "See More →",
-    styleName: "btn-primary",
+    styleName: "button-primary",
   },
 };
 
@@ -319,7 +319,7 @@ export const workshopData = {
   },
   buttonText: {
     contextName: "Join Now",
-    styleName: "btn-primary",
+    styleName: "button-primary",
   },
   videoUrl: "https://www.youtube.com/embed/rZFBv4GThLw",
 };

@@ -49,7 +49,7 @@ const PricingDetails = ({
       </p>
       <Benefit className={classNameText} data={planBenefit} />
       <div className={classNameBtn}>
-        <Button contextName="Enroll Now" styleName="btn-primary" />
+        <Button contextName="Enroll Now" styleName="button-primary" />
       </div>
     </>
   );
