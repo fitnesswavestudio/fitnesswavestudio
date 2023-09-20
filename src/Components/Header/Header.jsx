@@ -78,7 +78,7 @@ export const Header = () => {
     { name: "Blogs", link: "/blogs" },
   ];
   return (
-    <header className="header">
+    <header className="header-main">
       <Container>
         <div className="navbar-items">
           <img
