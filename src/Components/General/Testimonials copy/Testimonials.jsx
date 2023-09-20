@@ -1,7 +1,7 @@
 import "./Testimonials.scss";
-import { Section } from "./../../Utilities/Section/Section";
-import { Container } from "./../../Utilities/Container/Container";
-import { Heading } from "./../../Utilities/Heading/Heading";
+import { Section } from "../../Utilities/Section/Section";
+import { Container } from "../../Utilities/Container/Container";
+import { Heading } from "../../Utilities/Heading/Heading";
 import { testimonialsData } from "../../../Data/Data";
 
 const TestimonialView = ({ src, alt, text, author }) => {

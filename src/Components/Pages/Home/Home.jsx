@@ -6,6 +6,7 @@ import { Testimonials } from "./../../General/Testimonials/Testimonials";
 import { Contact } from "./../../General/Contact/Contact";
 import { Featured } from "../../General/Featured/Featured";
 import { FeaturedPortfolio } from "../../General/Featured/FeaturedPortfolio";
+import { Gallery } from "../../General/Gallery/Gallery";
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
       <MeetCoach />
       <FeaturedPortfolio />
       <Testimonials />
+      <Gallery/>
       <Contact />
     </>
   );
