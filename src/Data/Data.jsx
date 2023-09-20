@@ -630,7 +630,7 @@ export const yogaData = {
         "Introducing Yog Sakshi, our dedicated founder and wellness coach. With a deep understanding of yoga philosophy and a nurturing teaching style, Sakshi creates a harmonious environment for growth and transformation. Her classes blend traditional wisdom with modern practices, encouraging students to find balance, serenity, and strength on and off the mat. Join Sakshi's class for a holistic yoga experience.",
       ],
       trainerImageData: {
-        src: "assets/sakshi_hero.jpeg",
+        src: "assets/sakshi_intro.jpeg",
         alt: "Sakshi Image",
       },
     },

@@ -43,7 +43,7 @@ const ListItem = ({ className, icon, text, href }) => {
 
 const FooterLists = ({ className, text, children }) => {
   return (
-    <div className={"footer-main__" + className}>
+    <div className={"footer-fws-main__" + className}>
       <HeadingTertiary text={text} />
       {children}
     </div>
@@ -52,23 +52,23 @@ const FooterLists = ({ className, text, children }) => {
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer-fws">
       <Container>
-        <div className="footer-main">
+        <div className="footer-fws-main">
           <FooterLists className="logo" text={footerData.logo.text}>
-            <p className="footer-main__logo-text">{footerData.logo.tagline}</p>
+            <p className="footer-fws-main__logo-text">{footerData.logo.tagline}</p>
           </FooterLists>
 
           <FooterLists className="getintouch" text={footerData.getintouch.text}>
             <UnorderedList
-              className="footer-main__list"
+              className="footer-fws-main__list"
               data={footerData.getintouch.address}
             />
           </FooterLists>
 
           <FooterLists className="quicklinks" text={footerData.quicklinks.text}>
             <UnorderedList
-              className="footer-main__list"
+              className="footer-fws-main__list"
               data={footerData.quicklinks.links}
             />
           </FooterLists>
@@ -78,12 +78,12 @@ export const Footer = () => {
 
           </FooterLists>
         </div>
-        <div className="footer-copyright">
-          <p className="footer-copyright__text">
+        <div className="footer-fws-copyright">
+          <p className="footer-fws-copyright__text">
             Copyright &copy;. All rights reserved
           </p>
           <UnorderedList
-            className="footer-copyright--social-links"
+            className="footer-fws-copyright--social-links"
             data={footerData.socialLinks}
           />
         </div>
