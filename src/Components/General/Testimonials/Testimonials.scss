@@ -1,6 +1,17 @@
 @import "./../../../Styles/variables";
 @import "./../../../Styles/mixins";
 
+.bg-color-carousel {
+  background-color: #fdfaf5 !important
+}
+.image-respondent {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 300px;
+  max-width: 300px;
+}
 .testimonial {
   padding: 4rem 0;
   &-main {
@@ -15,7 +26,7 @@
     
 
     &__data {
-      @include flexLayout(flex-start, flex-start, column, 1rem);
+      @include flexLayout(flex-start, center, column, 1rem);
 
       & img {
         width: 30%;
@@ -23,13 +34,15 @@
       }
 
       &--text {
-        font-size: 1.4rem;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
         color: $color-primary-dark-1;
         line-height: 1.4;
       }
 
       &--author {
-        font-size: 1.2rem;
+        font-size: 20px;
         color: $color-grey-light-1;
         font-style: italic;
       }

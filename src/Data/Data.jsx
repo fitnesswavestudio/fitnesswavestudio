@@ -228,7 +228,7 @@ export const testimonialsData = {
     {
       src: "/assets/fws_logo_1x1.png",
       alt: "Testimonial User Image",
-      text: "I really enjoy the sessions. I feel more relaxed and have started feeling more energetic and gained confidence back after loosing 7 KGs of excess weignt. Thanks Sakshi for helping me gain my cofidence back.",
+      text: "I really enjoy the sessions. I feel more relaxed and have started feeling more energetic and gained confidence back after loosing 7 KGs of excess weignt. Thanks Sakshi for helping me gain my confidence back.",
       author: "- Suzana",
     },
     {
