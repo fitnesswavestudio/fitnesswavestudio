@@ -264,10 +264,6 @@ export const testimonialsData = {
       alt: "Image 6",
     },
     {
-      src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379758255_17877876644951764_2472878048414129484_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=MBwweMFHZCoAX-33kcf&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzI3NzQzNDcxMTMzNTUzOQ%3D%3D.2-ccb7-5&oh=00_AfAcRqAx4vnlgWPbIxmzjYnz5UVc8jqV6Mw4cCLlOtwp6Q&oe=6509FB9B&_nc_sid=ee9879",
-      alt: "Image 7",
-    },
-    {
       src: "https://scontent-bom1-1.cdninstagram.com/v/t39.30808-6/379130923_17877886367951764_3141732820172878357_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Dv3spu3aQBQAX_jSaxe&edm=ACWDqb8AAAAA&ccb=7-5&ig_cache_key=MzE5MzMxNzg5NTE5MTYxODQ0OA%3D%3D.2-ccb7-5&oh=00_AfBMLuvBO7pNL96hLzIk9bnSQjXWInCjrK32ruyWQQn_-A&oe=650C3A1A&_nc_sid=ee9879",
       alt: "Image 8",
     },
