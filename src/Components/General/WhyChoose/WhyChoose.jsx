@@ -18,7 +18,7 @@ export const WhyChoose = () => {
             <img {...whyChooseData.whyImage} styles={{maxHeight:'450px'}}/>
             <div className="section-why--row1__heading">
               <Heading {...whyChooseData.headingText} />
-              <Card bgColor="card-light-dark">
+              <Card bgColor="cardLightDark">
                 <Normal
                   headingText={whyChooseData.primaryCard.headingText}
                   paragraphText={whyChooseData.primaryCard.paragraphText}

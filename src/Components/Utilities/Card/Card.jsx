@@ -1,9 +1,9 @@
 import "./Card.scss";
 export const Card = ({ children, bgColor }) => {
   return (
-    <div className={"card " + bgColor}>
-      <div className="card-effect"></div>
-      <div className="card-item">{children}</div>
+    <div className={"infoCard " + bgColor}>
+      <div className="infoCard-effect"></div>
+      <div className="infoCard-item">{children}</div>
     </div>
   );
 };

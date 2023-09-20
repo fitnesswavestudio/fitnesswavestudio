@@ -9,12 +9,19 @@
 .navbar-items {
   @include flexLayout();
   flex-wrap: wrap;
+  @media only screen and(max-width: 500px) {
+    gap:1rem;
+  }
 }
 
 .logo {
   height: 56px;
 }
 .main-nav {
+  padding-top: 15px;
+  @media only screen and(min-width: 600px) {
+    margin: 0 5px 0px 150px;
+  }
   @include centerContent;
   &-list {
     list-style: none;

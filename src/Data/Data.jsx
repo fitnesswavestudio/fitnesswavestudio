@@ -277,12 +277,11 @@ export const testimonialsData = {
     },
   ],
 };
-
 //Why Choose Us
 export const whyChooseData = {
   headingText: {
     primary: "Your Partner in Achieving Fitness Excellence!",
-    secondary: "why choose us?",
+    secondary: "why choose us?"
   },
   whyImage: {
     src: "https://askproject.net/savasa/wp-content/uploads/sites/19/2021/08/a-woman-in-her-home-on-a-yoga-mat-in-a-flexible-yo-F7GWNFG.jpeg",
@@ -300,11 +299,13 @@ export const whyChooseData = {
       headingText: "Interactive Sessions",
       paragraphText:
         "Our online classes are designed to be interactive, fostering a sense of community and camaraderie among participants.",
+        bgColor: "card-dark"
     },
     {
       headingText: "Convenience of Online Classes",
       paragraphText:
         "Embracing the digital age, we offer online classes that can be accessed from the comfort of your own home or anywhere with an internet connection.",
+        bgColor:"card-light"
     },
   ],
 };

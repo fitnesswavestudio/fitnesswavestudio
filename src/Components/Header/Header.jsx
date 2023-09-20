@@ -82,7 +82,7 @@ export const Header = () => {
       <Container>
         <div className="navbar-items">
           <img
-            src="/assets/fws_logo_horizontal.jpeg"
+            src="/assets/Logo.png"
             alt="Fitness Studio Wave Logo"
             className="logo"
           ></img>
@@ -111,11 +111,6 @@ export const Header = () => {
               })}
             </ul>
           </nav>
-          <Button
-            styleName="button-primary"
-            contextName="Join us"
-            clickHandler={joinUsHandler}
-          />
         </div>
       </Container>
     </header>
