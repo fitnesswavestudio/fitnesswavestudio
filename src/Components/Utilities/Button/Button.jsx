@@ -2,7 +2,7 @@ import "./Button.scss";
 
 export const Button = ({ contextName, styleName, clickHandler }) => {
   return (
-    <button className={"btn " + styleName} onClick={clickHandler}>
+    <button className={"button " + styleName} onClick={clickHandler}>
       {contextName}
     </button>
   );
