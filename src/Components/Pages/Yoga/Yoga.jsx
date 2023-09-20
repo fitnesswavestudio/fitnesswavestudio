@@ -1,6 +1,6 @@
 import { HeadingPage } from "./../../Utilities/Heading/HeadingPage";
 import { PricingPlan } from "./../../General/PricingPlan/PricingPlan";
-import { Trainer } from "./../../General/Trainer/Trainer";
+import { TrainerComponent, TrainerHeaderComponent } from "./../../General/Trainer/Trainer";
 import { Course } from "./../../General/Course/Course";
 import { yogaData } from "../../../Data/Data";
 
@@ -9,7 +9,7 @@ export const Yoga = () => {
     <>
       <HeadingPage {...yogaData.heading} />
       <Course {...yogaData.course} />
-      <Trainer {...yogaData.trainer} />
+      <TrainerComponent />
       <PricingPlan {...yogaData.pricing} />
     </>
   );

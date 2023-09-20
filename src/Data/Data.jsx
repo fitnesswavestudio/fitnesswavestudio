@@ -617,38 +617,63 @@ export const yogaData = {
     ],
   },
 
-  trainer: {
+  trainerComponent: {
     headingData: [
       "Get familier with your trainer in your journey",
       "Know your Trainer",
-      " → Yog Sakshi",
-      "Introducing Sakshi, our dedicated founder and yoga instructor. With a deep understanding of yoga philosophy and a nurturing teaching style, Sakshi creates a harmonious environment for growth and transformation. Her classes blend traditional wisdom with modern practices, encouraging students to find balance, serenity, and strength on and off the mat. Join Sakshi's class for a holistic yoga experience.",
-    ],
-    socialLinks: { facebook: "#", instagram: "#", twitter: "#" },
-    trainerImageData: {
-      src: "assets/sakshi_hero.jpeg",
-      alt: "Trainer Image",
-    },
+    ]
   },
+  trainers: [
+    {
+      headingData: [
+        " → Yog Sakshi",
+        "Introducing Yog Sakshi, our dedicated founder and wellness coach. With a deep understanding of yoga philosophy and a nurturing teaching style, Sakshi creates a harmonious environment for growth and transformation. Her classes blend traditional wisdom with modern practices, encouraging students to find balance, serenity, and strength on and off the mat. Join Sakshi's class for a holistic yoga experience.",
+      ],
+      trainerImageData: {
+        src: "assets/sakshi_hero.jpeg",
+        alt: "Sakshi Image",
+      },
+    },
+    {
+      headingData: [
+        " → Poorva",
+        "Meet Poorva, a seasoned yoga instructor with an impressive 7 years of teaching experience. Her passion for yoga and dedication to helping others achieve holistic wellness are evident in her teachings. She possesses a deep understanding of various yoga styles and techniques, allowing her to tailor sessions to individual needs and abilities. Through her guidance, students not only improve their physical strength and flexibility but also find inner peace and balance, making her a beloved and trusted instructor in the yoga community.",
+      ],
+      trainerImageData: {
+        src: "assets/poorva.jpeg",
+        alt: "Poorva Image",
+      },
+    },
+    {
+      headingData: [
+        " → Sofia",
+        "Sofia is an accomplished yoga instructor, hailing from Poland. With exceptional skills and dedication to the practice, she stands out in the yoga community. Her teaching reflects the expertise and precision that make her an inspiration to her students.",
+      ],
+      trainerImageData: {
+        src: "assets/sofie.jpeg",
+        alt: "Sofie Image",
+      },
+    }
+  ],
   pricing: {
     pricingCardData: [
       {
         plan: "1 Month",
         price: "1199.00",
         pricingText: "Plan for 1 month Regular Classes",
-        planBenefit: ["Live Classes", "Lorem", "Lorem", "Lorem"],
+        planBenefit: ["Live Classes"],
       },
       {
         plan: "3 Month",
         price: "2999.00",
         pricingText: "Plan for 3 month Regular Classes",
-        planBenefit: ["Live Classes", "Free Diet Plan", "Lorem", "Lorem"],
+        planBenefit: ["Live Classes", "Free Diet Plan"],
       },
       {
         plan: "6 Month",
         price: "4999.00",
         pricingText: "Plan for 6 month Regular Classes",
-        planBenefit: ["Live Classes", "Free Diet Plan", "Lorem", "Lorem"],
+        planBenefit: ["Live Classes", "Free Diet Plan"],
       },
     ],
     headingData: [

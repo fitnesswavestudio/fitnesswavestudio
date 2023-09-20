@@ -1,6 +1,12 @@
 @import "./../../../Styles/variables";
 @import "./../../../Styles/mixins";
 
+.carousel-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
 .trainer {
   padding: 2rem 0;
   @include gridLayout(auto, repeat(2, 1fr), 2rem, 2rem);
