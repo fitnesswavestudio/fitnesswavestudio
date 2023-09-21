@@ -43,7 +43,7 @@ export const Testimonials = () => {
               primary="Hear What Our Fitness Community Has to Say"
               secondary="testimonials"
             />
-            <Section styleColor="primary">
+            <Section>
               <CCarousel activeIndex={activeIndex} onSlideChange={handleSlideChange}>
                   {testimonialsData.reviews.map((val, idx) => (
                       <CCarouselItem key={idx}>

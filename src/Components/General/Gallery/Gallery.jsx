@@ -30,7 +30,7 @@ export const Gallery = () => {
               primary="Zen Moments: Yoga Class Gallery Highlights"
               secondary="Gallery"
             />
-            <Section styleColor="primary"  className="gallery-primary-main">
+            <Section  className="gallery-primary-main">
               <CCarousel activeIndex={activeIndex} onSlideChange={handleSlideChange}>
                   {testimonialsData.gallery.map((val, key) => (
                       <CCarouselItem key={key}>
