@@ -130,6 +130,12 @@ export const faqData = {
 export const meetCoachData = {
   trainerInfo: [
     {
+      src: "/assets/sakshi_intro.jpeg",
+      alt: "Trainer Image",
+      trainerType: "Wellness Coach",
+      trainerName: "Yog Sakshi",
+    },
+    {
       src: "/assets/poorva_cropped.jpeg",
       alt: "Trainer Image",
       trainerType: "Certified Yoga Trainer",

@@ -58,11 +58,13 @@
     }
     &__location {
       & iframe {
-        padding-top: 2.6rem;
+        padding-top: 2.0rem;
+        height: 200px;
+        width: 400px;
         border: none;
-
-        @media only screen and(max-width: 26em) {
+        @media only screen and(max-width: 400px) {
           padding-top: 1rem;
+          width:300px;
         }
       }
 

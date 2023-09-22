@@ -2,8 +2,8 @@
 @import "./../../../Styles/mixins";
 .main-items {
   display: grid;
-  grid-template-columns: 1.5fr 1.5fr 3fr;
-  gap: 4rem;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 3fr;
+  gap: 1.5rem;
   align-items: center;
   padding: 4rem 0;
   &__heading {

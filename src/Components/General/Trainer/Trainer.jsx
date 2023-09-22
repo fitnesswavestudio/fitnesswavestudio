@@ -61,7 +61,7 @@ export const TrainerComponent = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % items.length);
-    }, 10000); // 10 seconds interval
+    }, 7000); // 10 seconds interval
 
     return () => clearInterval(intervalId);
   }, [items.length]);

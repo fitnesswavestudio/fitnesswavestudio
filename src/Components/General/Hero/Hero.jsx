@@ -22,7 +22,7 @@ export const Hero = () => {
             <HeadingParagraph {...heroData.heroText} />
             <div className="hero-text-box__buttons">
               <Button {...heroData.heroBtn} clickHandler={getStartedHandler} />
-              <PlayButton />
+              <PlayButton/>
             </div>
           </div>
           <div className="hero-img-box">
