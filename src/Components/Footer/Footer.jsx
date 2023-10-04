@@ -52,7 +52,7 @@ const FooterLists = ({ className, text, children }) => {
 
 export const Footer = () => {
   return (
-    <footer className="footer-fws">
+    <footer className="footer-fws one">
       <Container>
         <div className="footer-fws-main">
           <FooterLists className="logo" text={footerData.logo.text}>
