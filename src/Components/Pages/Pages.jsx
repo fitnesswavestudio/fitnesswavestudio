@@ -11,7 +11,7 @@ import { Nutrition } from "./Nutrition/Nutrition";
 import { Routes, Route } from "react-router-dom";
 import { Error } from "./../Pages/Error/Error";
 import { Thankyou } from "./Thankyou/Thankyou";
-
+import { Enroll } from "./Enroll/Enroll";
 export const Pages = () => {
   return (
     <>
@@ -52,6 +52,16 @@ export const Pages = () => {
             <>
               <Header />
               <Thankyou />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="enroll/now"
+          element={
+            <>
+              <Header />
+              <Enroll />
               <Footer />
             </>
           }

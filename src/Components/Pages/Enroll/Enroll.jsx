@@ -5,15 +5,19 @@ import { TermsAndCondition } from "../../General/TermsAndCondition/TermsAndCondi
 import { Container } from "../../Utilities/Container/Container";
 import { HeadingSecondary } from "../../Utilities/Heading/Sub-Component/HeadingSecondary";
 import { Section } from "../../Utilities/Section/Section";
-import "./Thankyou.scss";
+import { HeadingPrimary } from "../../Utilities/Heading/Sub-Component/HeadingPrimary";
+import { Enrollform } from "../../General/Enrollform/Enrollform";
+import "./Enroll.scss";
 
-export const Thankyou = () => {
+export const Enroll = () => {
   return (
     <>
       <HeadingPage text="Thank You" className=" about" />
       <Section>
       <Container>
-      <HeadingSecondary headingText="Thank You for enrolling with us, we will reach back to you shortly." />
+      <HeadingSecondary headingText="Fill out the form.." />
+      <HeadingPrimary headingText="Enroll Now"/>
+      <Enrollform />
       </Container>
       </Section>
       <FAQs />
