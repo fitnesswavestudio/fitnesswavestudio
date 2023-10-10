@@ -10,6 +10,7 @@ import { Meditation } from "./Meditation/Meditation";
 import { Nutrition } from "./Nutrition/Nutrition";
 import { Routes, Route } from "react-router-dom";
 import { Error } from "./../Pages/Error/Error";
+import { Thankyou } from "./Thankyou/Thankyou";
 
 export const Pages = () => {
   return (
@@ -41,6 +42,16 @@ export const Pages = () => {
             <>
               <Header />
               <Yoga />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="thankyou"
+          element={
+            <>
+              <Header />
+              <Thankyou />
               <Footer />
             </>
           }
