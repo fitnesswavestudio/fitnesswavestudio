@@ -10,12 +10,26 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./Enrollform.scss";
 import { contactData } from "../../../Data/Data";
+import axios from 'axios';
 
 export const Enrollform = () => {
+  const [formData, setFormData] = useState({
+    "entry.891379053": ''
+  });
   const history = useNavigate();
   const currentDate = new Date().toISOString().split('T')[0]; // Get current date in "YYYY-MM-DD" format
-  const sendMessageHandler = (e) => {
-    //e.preventDefault();
+  const sendMessageHandler = async(e) => {
+    e.preventDefault();
+    try {
+      // Send a POST request to the server with form data
+      const response = await axios.post('https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXxlO18FwGZ0OT6_0Y32n5O0qbxBm_m4VmrbOdG-AJY4GSdw/formResponse', formData);
+
+      // Handle the response (success or error) here
+      console.log('Response:', response.data);
+    } catch (error) {
+      // Handle errors here
+      console.error('Error:', error);
+    }
     console.log("SUBMITTED");
     history('/thankyou');
   };
@@ -30,7 +44,7 @@ export const Enrollform = () => {
             <HeadingSecondary headingText="Enroll Now" />
             <Form submitHandler={sendMessageHandler}>
               <Label labelFor="name" labelText="Full Name"/>
-              <Input required={true} type={"text"} id={"name"} />
+              <Input name="entry.2037917220" value={formData["entry.2037917220"]} required={true} type={"text"} id={"name"} />
               <Label labelFor="email" labelText="Email Address"/>
               <Input required={true} type={"email"} id={"email"} />
               <Label labelFor="phone" labelText="Phone Number"/>
