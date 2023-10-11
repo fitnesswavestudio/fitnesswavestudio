@@ -13,24 +13,33 @@ import { contactData } from "../../../Data/Data";
 import axios from 'axios';
 
 export const Enrollform = () => {
-  const [formData, setFormData] = useState({
-    "entry.891379053": ''
-  });
-  const history = useNavigate();
   const currentDate = new Date().toISOString().split('T')[0]; // Get current date in "YYYY-MM-DD" format
+  const [formData, setFormData] = useState({
+    "entry.891379053": '',
+    "entry.1080075188": '',
+    "entry.1106114092": '',
+    "entry.1888004658": '',
+    "entry.1615610469": currentDate,
+    "entry.1351931318": '',
+    "entry.810166459": '',
+    "entry.352750955": ''
+  });
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+  const history = useNavigate();
+  
   const sendMessageHandler = async(e) => {
     e.preventDefault();
     try {
       // Send a POST request to the server with form data
-      const response = await axios.post('https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXxlO18FwGZ0OT6_0Y32n5O0qbxBm_m4VmrbOdG-AJY4GSdw/formResponse', formData);
-
+      const response = await axios.post(`https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXxlO18FwGZ0OT6_0Y32n5O0qbxBm_m4VmrbOdG-AJY4GSdw/formResponse?entry.891379053=${formData["entry.891379053"]}&entry.1080075188=${formData["entry.1080075188"]}&entry.1106114092=${formData["entry.1106114092"]}&entry.1888004658=${formData["entry.1888004658"]}&entry.1615610469=${formData["entry.1615610469"]}&entry.1351931318=${formData["entry.1351931318"]}&entry.810166459=${formData["entry.810166459"]}&entry.352750955=${formData["entry.352750955"]}
+      `);
+      
       // Handle the response (success or error) here
-      console.log('Response:', response.data);
     } catch (error) {
       // Handle errors here
-      console.error('Error:', error);
     }
-    console.log("SUBMITTED");
     history('/thankyou');
   };
   return (
@@ -44,17 +53,21 @@ export const Enrollform = () => {
             <HeadingSecondary headingText="Enroll Now" />
             <Form submitHandler={sendMessageHandler}>
               <Label labelFor="name" labelText="Full Name"/>
-              <Input name="entry.2037917220" value={formData["entry.2037917220"]} required={true} type={"text"} id={"name"} />
+              <Input name="entry.891379053" value={formData["entry.891379053"]} required={true} type={"text"} id={"name"} changeHandler={handleChange} />
               <Label labelFor="email" labelText="Email Address"/>
-              <Input required={true} type={"email"} id={"email"} />
+              <Input name="entry.1080075188" value={formData["entry.1080075188"]} required={true} type={"email"} id={"email"} changeHandler={handleChange}/>
               <Label labelFor="phone" labelText="Phone Number"/>
-              <Input required={true} type={"tel"} id={"phone"} />
+              <Input name="entry.1106114092" value={formData["entry.1106114092"]} required={true} type={"tel"} id={"phone"} changeHandler={handleChange}/>
               <Label labelFor="insta" labelText="Instagram Id"/>
-              <Input type={"text"} id={"insta"} />
+              <Input name="entry.1888004658" value={formData["entry.1888004658"]} type={"text"} id={"insta"} 
+              changeHandler={handleChange}/>
               <Label labelFor="startdate" labelText="Start Date"/>
-              <Input type={"date"} id={"startdate"} value={currentDate} />
+              <Input name="entry.1615610469" value={formData["entry.1615610469"]} required={true} 
+              min={currentDate} max={currentDate} 
+              changeHandler={handleChange}
+              type={"date"} id={"startdate"} />
               <Label labelFor="batch" labelText="Batch Time"/>
-              <select id="batch" class="form-group__input">
+              <select id="batch" name="entry.1351931318" value={formData["entry.1351931318"]} class="form-group__input" onChange={handleChange}>
                 <option value="">Select a Batch Timing</option>
                 <option value="6 AM - 1 month - ₹1200">6 AM - 1 month - ₹1200</option>
                 <option value="6 AM - 3 month - ₹2900">6 AM - 3 month - ₹2900</option>
@@ -70,9 +83,9 @@ export const Enrollform = () => {
 
               </select>
               <Label labelFor="medical" labelText="Medical Ailments (if any)"/>
-              <TextArea id={"medical"}/>
+              <TextArea name="entry.810166459" value={formData["entry.810166459"]} id={"medical"} changeHandler={handleChange}/>
               <Label labelFor="special" labelText="Special Needs/Ask"/>
-              <TextArea id={"special"}/>
+              <TextArea name="entry.352750955" value={formData["entry.352750955"]} id={"special"} changeHandler={handleChange}/>
               <Button
                 {...contactData.button}
                 type={"submit"}
